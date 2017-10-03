@@ -1,0 +1,19 @@
+.left-nav-items{
+  padding: 40px 20px;
+  background-color: white;
+  .left-nav-item{
+    // display: inline;
+    padding: 3px 0;
+    padding-top: 10px;
+    user-select: none;
+    cursor: pointer;
+    &:hover> .left-nav-item-text, .left-nav-item-text:hover{
+      transform: translateX(70px);
+    }
+    .left-nav-item-text{
+      cursor: pointer;
+      color:inherit;
+      transition: transform 0.4s ease-in-out, color 0.4s;
+    }
+  }
+}
