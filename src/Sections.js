@@ -1,6 +1,8 @@
 import constEnum from './constEnum';
 import { LeftNavItem } from './left-nav/LeftNavItems';
 const Color = require('color');
+const PAGE_BASE_URL = '/work/';
+const PLACEHOLDER_IMAGE_URL = 'bigbird.jpg';
 
 export class Section {
   constructor(key, title, color, hoverPhotoUrl){
@@ -10,9 +12,10 @@ export class Section {
       this.hoverPhotoUrl = require('./assets/'+hoverPhotoUrl);
       console.log(this.hoverPhotoUrl);
     }else{
-      this.color = color;
+      this.hoverPhotoUrl = require('./assets/'+PLACEHOLDER_IMAGE_URL);
     }
     this.navColor = Color(color).darken(0.1).hex();
+    this.pageUrl = PAGE_BASE_URL+PAGE_URLS[key];
   }
 }
 
@@ -27,16 +30,23 @@ export const SECTION_IDS = [
 
 export const SECTION_ENUM = constEnum(...SECTION_IDS);
 
+const PAGE_URLS = SECTION_IDS.reduce((acc,curr)=>{
+  acc[curr] = curr.toLowerCase().replace('_', '-');
+  return acc;
+}, {})
+
 export const SECTIONS = [
   new Section(
     SECTION_ENUM.SUNDANCE,
     'sundance summer theatre',
-    '#D6E0BD'
+    '#D6E0BD',
+    'sundancesummertheatre.jpg'
   ),
   new Section(
     SECTION_ENUM.RENAISSANCE_NOW,
     'renaissance now',
-    '#E2C7C3'
+    '#E2C7C3',
+    'renaissancenow.jpg'
   ),
   new Section(
     SECTION_ENUM.RENAISSANCE_FAIRE,
@@ -47,12 +57,14 @@ export const SECTIONS = [
   new Section(
     SECTION_ENUM.UVU,
     'utah valley university',
-    '#B4CFB7'
+    '#B4CFB7',
+    'utahvalleyuniversity.png'
   ),
   new Section(
     SECTION_ENUM.BYU,
     'brigham young university',
-    '#DEEAEE'
+    '#DEEAEE',
+    'brighamyounguniversity.jpg'
   ),
   new Section(
     SECTION_ENUM.MISC,

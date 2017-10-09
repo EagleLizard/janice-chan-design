@@ -1,16 +1,12 @@
 import React, { Component } from 'react';
+import { Route, Switch } from 'react-router-dom';
 import './App.css';
 
-import LeftNav from './left-nav/LeftNav';
-import { LEFT_NAV_ENUM } from './left-nav/LeftNavItems';
 import MainHeader from './main-header/MainHeader';
-import HoverDrawer from './hover-drawer/HoverDrawer';
-import { getHoverItem } from './hover-drawer/HoverItem';
 import { SECTIONS } from './Sections';
 import { VIEW_ENUM, DEFAULT_VIEW } from './Views/Views';
-
-let hoverItems = Object.keys(LEFT_NAV_ENUM).map(key=>getHoverItem(key));
-let hoverItem = null;
+import MainNav from './Views/MainNav/MainNav';
+import DetailPage from './Views/Pages/DetailPage';
 
 class App extends Component {
 
@@ -18,43 +14,44 @@ class App extends Component {
     super(props);
     this.state = {
       view: DEFAULT_VIEW,
-      hoverItem: null
+      hoverItem: null,
+      deailtPage: null
     };
   }
 
-  navItemHovered(itemKey){
-    this.setState((prev, props)=>({
-      hoverItem: Object.assign({}, getHoverItem(itemKey))
-    }));
-    setTimeout(()=>{
-      console.log(this.state.hoverItem.color);
-    })
-  }
-
   navItemClicked(itemKey){
-    console.log(itemKey);
+    this.setState((prev, props)=>{
+      return Object.assign({}, {
+        view: VIEW_ENUM.DETAIL_PAGE,
+        detailPage: itemKey
+      });
+    });
   }
 
   render() {
+    console.log('App.render');
     return (
       <div className="App">
         <div className="main-header-container">
           <MainHeader />
         </div>
-        <div className="left-nav-container">
-          <LeftNav
-            navItems={ SECTIONS }
-            itemKey={this.state.hoverItem}
-            navItemHovered={this.navItemHovered.bind(this)}
-            navItemClicked={this.navItemClicked.bind(this)}
+        <Switch>
+          <Route 
+            exact={true} 
+            path='/'
+            render={(props)=>(
+                <MainNav 
+                  sections={SECTIONS}
+                  navItemClicked={this.navItemClicked.bind(this)}
+                />
+            )} 
           />
-        </div>
-        <div className="hover-drawer-container">
-          <HoverDrawer 
-            hoverItems={ SECTIONS }
-            itemKey={this.state.hoverItem}
+          <Route 
+            path='/work/:pageId'
+            component={DetailPage}
           />
-        </div>
+        </Switch>
+
       </div>
     );
   }

@@ -12,7 +12,7 @@ export default class HoverDrawer extends Component{
             return (
               <div 
                 className={(this.props.itemKey && hoverItem.key === this.props.itemKey.key) 
-                            ? (console.log(this.props),'hover-drawer-open') 
+                            ?  'hover-drawer-open'
                             :  'hover-drawer-close'}
                 style={{'background-color':`${hoverItem.color || '#FFF'}`}}
                 key={hoverItem.key}>

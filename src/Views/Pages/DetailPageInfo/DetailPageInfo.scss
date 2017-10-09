@@ -1,0 +1,36 @@
+.detail-page-info{
+  padding: 20px;
+  .detail-header{
+    padding: 10px 5px;
+    .header-title{
+      font-size: 24px;
+      display:inline-block;
+      .header-subtitle{
+        font-size: 14px;
+        font-style: italic;
+        text-align: right;
+      }
+    }
+  }
+  .detail-body{
+    padding-top: 60px;
+    .body-credit{
+      font-size: 20px;
+    }
+    .body-description{
+      padding-top: 10px;
+      font-size: 14px;
+      .description-paragraph{
+        padding-top: 5px;
+      }
+    }
+  }
+  .detail-footer{
+    padding-top: 40px;
+    display: flex;
+    font-size: 20px;
+    .footer-year, .footer-location{
+      width: 100%;
+    }
+  }
+}
