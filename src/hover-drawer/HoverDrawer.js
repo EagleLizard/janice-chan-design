@@ -14,11 +14,8 @@ export default class HoverDrawer extends Component{
                 className={(this.props.itemKey && hoverItem.key === this.props.itemKey.key) 
                             ?  'hover-drawer-open'
                             :  'hover-drawer-close'}
-                style={{'background-color':`${hoverItem.color || '#FFF'}`}}
+                
                 key={hoverItem.key}>
-                <div className="hover-drawer-text">
-                  {hoverItem.title}
-                </div>
                 <span className="hover-photo-helper"/>
                 {(hoverItem.hoverPhotoUrl)
                   ? <img 

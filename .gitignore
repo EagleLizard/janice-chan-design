@@ -22,3 +22,7 @@ yarn-error.log*
 
 # built styles
 **/*.css
+
+# other things
+00version
+package-lock.json

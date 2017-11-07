@@ -10,15 +10,20 @@ export default class FadeIn extends Component{
       }
     }
   }
+
+  componentDidMount(){
+    this.setState((prev,props)=>{
+      return {
+        style: {
+          opacity: 1
+        }
+      }
+    });
+  }
+
   render(){
     setTimeout(()=>{
-      this.setState((prev,props)=>{
-        return {
-          style: {
-            opacity: 1
-          }
-        }
-      });
+      
     }, this.props.delay);
     return (
       <div 

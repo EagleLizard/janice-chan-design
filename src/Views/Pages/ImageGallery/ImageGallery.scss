@@ -1,3 +1,14 @@
 .image-gallery{
-  
+  width: 100%;
+  .grid-item{
+    display: inline-block;
+    // height: 400px;
+    // width: 22%;
+    img{
+      // width: 100%;
+    }
+  }
+  .grid-item, .grid-sizer{
+    // width: 22%;
+  }
 }

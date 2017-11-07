@@ -24,11 +24,12 @@ $left-width: 285px;
   }
   .left-nav-container{
     width: $left-width;
+    height: 100%;
     z-index: 2;
   }
   .hover-drawer-container{
     z-index: 1;
-    height: 100%l
+    height: 100%;
   }
 }
 
