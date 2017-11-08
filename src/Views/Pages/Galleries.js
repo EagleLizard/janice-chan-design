@@ -79,5 +79,16 @@ export const GALLERIES = [
       images.SUNDANCE11
     ],
     true
+  ),
+  new Gallery(
+    SECTION_ENUM.RENAISSANCE_NOW,
+    [
+      images.RENAISSANCENOW1,
+      images.RENAISSANCENOW2,
+      images.RENAISSANCENOW3,
+      images.RENAISSANCENOW4,
+      images.RENAISSANCENOW5
+    ],
+    true
   )
 ];

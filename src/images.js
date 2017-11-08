@@ -26,6 +26,12 @@ import SUNDANCE9 from './assets/gallery/sundance/sundance9.jpg';
 import SUNDANCE10 from './assets/gallery/sundance/sundance10.jpg';
 import SUNDANCE11 from './assets/gallery/sundance/sundance11.jpg';
 
+import RENAISSANCENOW1 from './assets/gallery/renaissancenow/renaissancenow1.jpg';
+import RENAISSANCENOW2 from './assets/gallery/renaissancenow/renaissancenow2.jpg';
+import RENAISSANCENOW3 from './assets/gallery/renaissancenow/renaissancenow3.jpg';
+import RENAISSANCENOW4 from './assets/gallery/renaissancenow/renaissancenow4.jpg';
+import RENAISSANCENOW5 from './assets/gallery/renaissancenow/renaissancenow5.jpg';
+
 
 export default {
   Shield1,
@@ -53,5 +59,11 @@ export default {
   SUNDANCE8,
   SUNDANCE9,
   SUNDANCE10,
-  SUNDANCE11
+  SUNDANCE11,
+
+  RENAISSANCENOW1,
+  RENAISSANCENOW2,
+  RENAISSANCENOW3,
+  RENAISSANCENOW4,
+  RENAISSANCENOW5
 };
