@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import StackGrid from 'react-stack-grid';
 import './ImageGallery.css';
 
 import {imageLoader} from '../../../common/common';
@@ -35,16 +36,20 @@ export default class ImageGallery extends Component{
     
     let childElems = this.state.imageData.map(image=>{
       return (
-        <li className="grid-item">
+        <div className="grid-item">
           <img src={image.src} height={image.height} width={image.width}/>
-        </li>
+        </div>
       );
     });
 
     return (
-      <div className="image-gallery">
+      <StackGrid
+        columnWidth={COLUMN_WIDTH}>
         {childElems}
-      </div>
+      </StackGrid>
+      // <div className="image-gallery">
+      //   {childElems}
+      // </div>
     )
   }
 }
