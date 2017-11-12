@@ -19,24 +19,72 @@ class DetailPage{
 
 export const DETAIL_PAGES = [
   new DetailPage(
+    SECTION_ENUM.RENAISSANCE_NOW,
+    'RENNAISSANCE NOW',
+    'The Taming of the Shrew',
+    'scenic designer, properties master',
+    [
+      'Director: Archelaus D. Crisanto',
+      'Assistant Director: Sarah Butler',
+      'Costumes: Amanda Louise Hellewell'
+    ],
+    2017,
+    'Provo, Utah, U.S.A.',
+  ),
+  new DetailPage(
     SECTION_ENUM.RENAISSANCE_FAIRE,
     'UTAH RENAISSANCE FAIRE',
     '',
     'prop painter',
     [
-      'Painted four shields using interior latex/ The shirled were used in the jousting events.'
+      'Painted four shields using interior latex. The shieds were used in the jousting events.'
     ],
     2017,
-    'Lehi, UT, U.S.A.'
+    'Lehi, Utah, U.S.A.'
   ),
   new DetailPage(
     SECTION_ENUM.SUNDANCE,
     'SUNDANCE SUMMER THEATRE',
     'Joseph and the Amazing Technicolor Dreamcoat',
     'scenic painter',
-    [],
+    [
+      'Director: D. Terry Petrie',
+      'Scenic: Stephen Purdy',
+      'Lights: Matthew Taylor',
+      'Sound: Matthew Kupferer',
+      'Costumes: Nancy Cannon, Carla Summers'
+    ],
     2017,
-    'Sundance, UT, U.S.A.'
+    'Sundance, Utah, U.S.A.'
+  ),
+  new DetailPage(
+    SECTION_ENUM.UVU,
+    'UTAH VALLERY UNIVERSITY',
+    'A Year with Frog & Toad',
+    'assistant scenic designer',
+    [
+      'Director: Lisa Hall Hagen',
+      'Scenic: Emma Belnap',
+      'Lights: Aaron Gubler',
+      'Sound:',
+      'Costumes: Chris Lancaster'
+    ],
+    2017,
+    'Orem, Utah, U.S.A.'
+  ),
+  new DetailPage(
+    SECTION_ENUM.BYU,
+    'BRIGHAM YOUNG UNIVERSITY',
+    'Hamlet',
+    'scenic designer',
+    [
+      'Director: Chris Hults',
+      'Lights: Kalea Crapo',
+      'Sound: Matthew Kupferer',
+      'Costumes: Sarah Ziegler'
+    ],
+    2017,
+    'Provo, Utah, U.S.A.'
   )
 ];
 
