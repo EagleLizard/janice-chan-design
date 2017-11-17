@@ -16,10 +16,15 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "npm run build-css && react-scripts build",
+    "build": "grunt images && npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar src/ -o src/",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/ --watch --recursive"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-imagemin": "^2.0.1",
+    "grunt-responsive-images": "^1.10.1"
   }
 }

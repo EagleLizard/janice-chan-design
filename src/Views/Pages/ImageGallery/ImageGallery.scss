@@ -1,7 +1,8 @@
 .image-gallery{
   width: 100%;
+  display: flex;
   .grid-item{
-    display: inline-block;
+    // display: inline-block;
     // height: 400px;
     // width: 22%;
     img{

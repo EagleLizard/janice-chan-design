@@ -44,6 +44,7 @@ export default class ImageGallery extends Component{
 
     return (
       <StackGrid
+        className="image-gallery"
         columnWidth={COLUMN_WIDTH}>
         {childElems}
       </StackGrid>
