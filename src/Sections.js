@@ -9,10 +9,10 @@ export class Section {
     this.key = key;
     this.title = title;
     if(hoverPhotoUrl){
-      this.hoverPhotoUrl = require('./assets/'+hoverPhotoUrl);
+      this.hoverPhotoUrl = require('./assets-min/lg/'+hoverPhotoUrl);
       console.log(this.hoverPhotoUrl);
     }else{
-      this.hoverPhotoUrl = require('./assets/'+PLACEHOLDER_IMAGE_URL);
+      this.hoverPhotoUrl = require('./assets-min/lg/'+PLACEHOLDER_IMAGE_URL);
     }
     this.navColor = Color(color).darken(0.1).hex();
     this.pageUrl = PAGE_BASE_URL+PAGE_URLS[key];

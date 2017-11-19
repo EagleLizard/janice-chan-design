@@ -14,7 +14,7 @@
     user-select: none;
     cursor: pointer;
     color: #000;
-    font-size: $font-sm;
+    font-size: $font-md;
     &:hover> .left-nav-item-text, .left-nav-item-text:hover{
       transform: translateX(70px);
     }
