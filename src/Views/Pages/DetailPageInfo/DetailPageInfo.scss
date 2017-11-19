@@ -1,12 +1,14 @@
+@import "src/global.scss";
+
 .detail-page-info{
   padding: 20px;
   .detail-header{
     padding: 10px 5px;
     .header-title{
-      font-size: 24px;
+      font-size: $font-lg;
       display:inline-block;
       .header-subtitle{
-        font-size: 14px;
+        font-size: $font-sm;
         font-style: italic;
         text-align: right;
       }
@@ -15,11 +17,11 @@
   .detail-body{
     padding-top: 60px;
     .body-credit{
-      font-size: 20px;
+      font-size: $font-md;
     }
     .body-description{
       padding-top: 10px;
-      font-size: 14px;
+      font-size: $font-sm;
       .description-paragraph{
         padding-top: 5px;
       }
@@ -28,7 +30,7 @@
   .detail-footer{
     padding-top: 40px;
     display: flex;
-    font-size: 20px;
+    font-size: $font-md;
     .footer-year, .footer-location{
       width: 100%;
     }

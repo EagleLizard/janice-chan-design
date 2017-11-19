@@ -1,3 +1,5 @@
+@import "src/global.scss";
+
 .left-nav-items{
   padding: 70px 0px 20px 50px;
   position: absolute;
@@ -12,7 +14,7 @@
     user-select: none;
     cursor: pointer;
     color: #000;
-    font-size: 18px;
+    font-size: $font-sm;
     &:hover> .left-nav-item-text, .left-nav-item-text:hover{
       transform: translateX(70px);
     }
