@@ -20,7 +20,7 @@ class DetailPage{
 export const DETAIL_PAGES = [
   new DetailPage(
     SECTION_ENUM.RENAISSANCE_NOW,
-    'RENNAISSANCE NOW',
+    'RENAISSANCE NOW',
     'The Taming of the Shrew',
     'scenic designer, properties master',
     [
@@ -59,14 +59,14 @@ export const DETAIL_PAGES = [
   ),
   new DetailPage(
     SECTION_ENUM.UVU,
-    'UTAH VALLERY UNIVERSITY',
+    'UTAH VALLEY UNIVERSITY',
     'A Year with Frog & Toad',
     'assistant scenic designer',
     [
       'Director: Lisa Hall Hagen',
       'Scenic: Emma Belnap',
       'Lights: Aaron Gubler',
-      'Sound:',
+      'Sound: Kevin Criman',
       'Costumes: Chris Lancaster'
     ],
     2017,
