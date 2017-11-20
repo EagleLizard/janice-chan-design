@@ -32,6 +32,21 @@ import RENAISSANCENOW3 from './assets-min/lg/gallery/renaissancenow/renaissancen
 import RENAISSANCENOW4 from './assets-min/lg/gallery/renaissancenow/renaissancenow4.jpg';
 import RENAISSANCENOW5 from './assets-min/lg/gallery/renaissancenow/renaissancenow5.jpg';
 
+import UVU1 from './assets-min/lg/gallery/uvu/uvu1.jpg';
+import UVU2 from './assets-min/lg/gallery/uvu/uvu2.jpg';
+import UVU3 from './assets-min/lg/gallery/uvu/uvu3.jpg';
+import UVU4 from './assets-min/lg/gallery/uvu/uvu4.jpg';
+import UVU5 from './assets-min/lg/gallery/uvu/uvu5.jpg';
+import UVU6 from './assets-min/lg/gallery/uvu/uvu6.jpg';
+import UVU7 from './assets-min/lg/gallery/uvu/uvu7.jpg';
+import UVU8 from './assets-min/lg/gallery/uvu/uvu8.jpg';
+import UVU9 from './assets-min/lg/gallery/uvu/uvu9.jpg';
+import UVU10 from './assets-min/lg/gallery/uvu/uvu10.jpg';
+import UVU11 from './assets-min/lg/gallery/uvu/uvu11.jpg';
+import UVU12 from './assets-min/lg/gallery/uvu/uvu12.jpg';
+import UVU13 from './assets-min/lg/gallery/uvu/uvu13.jpg';
+import UVU14 from './assets-min/lg/gallery/uvu/uvu14.jpg';
+
 import {SECTION_ENUM} from './Sections';
 
 export default {
@@ -66,5 +81,20 @@ export default {
   RENAISSANCENOW2,
   RENAISSANCENOW3,
   RENAISSANCENOW4,
-  RENAISSANCENOW5
+  RENAISSANCENOW5,
+
+  UVU1,
+  UVU2,
+  UVU3,
+  UVU4,
+  UVU5,
+  UVU6,
+  UVU7,
+  UVU8,
+  UVU9,
+  UVU10,
+  UVU11,
+  UVU12,
+  UVU13,
+  UVU14
 };

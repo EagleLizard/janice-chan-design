@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.9dbfd6d0.css",
   "main.css.map": "static/css/main.9dbfd6d0.css.map",
-  "main.js": "static/js/main.120fa805.js",
-  "main.js.map": "static/js/main.120fa805.js.map",
+  "main.js": "static/js/main.dc28a0e5.js",
+  "main.js.map": "static/js/main.dc28a0e5.js.map",
   "static/media/BYU1.jpg": "static/media/BYU1.d6f43fef.jpg",
   "static/media/BYU2.jpg": "static/media/BYU2.3087d784.jpg",
   "static/media/BYU3.jpg": "static/media/BYU3.95acbfc2.jpg",
@@ -39,5 +39,19 @@
   "static/media/sundance9.jpg": "static/media/sundance9.600e6ee7.jpg",
   "static/media/sundancesummertheatre.jpg": "static/media/sundancesummertheatre.a3c44a2b.jpg",
   "static/media/utahrenaissancefaire.png": "static/media/utahrenaissancefaire.071358c9.png",
-  "static/media/utahvalleyuniversity.png": "static/media/utahvalleyuniversity.ee4479a8.png"
+  "static/media/utahvalleyuniversity.png": "static/media/utahvalleyuniversity.ee4479a8.png",
+  "static/media/uvu1.jpg": "static/media/uvu1.d28d9d4c.jpg",
+  "static/media/uvu10.jpg": "static/media/uvu10.7e4c5197.jpg",
+  "static/media/uvu11.jpg": "static/media/uvu11.d5769d18.jpg",
+  "static/media/uvu12.jpg": "static/media/uvu12.1ba08c7b.jpg",
+  "static/media/uvu13.jpg": "static/media/uvu13.a64d43c9.jpg",
+  "static/media/uvu14.jpg": "static/media/uvu14.9931c9e6.jpg",
+  "static/media/uvu2.jpg": "static/media/uvu2.316b3d48.jpg",
+  "static/media/uvu3.jpg": "static/media/uvu3.2aafdd29.jpg",
+  "static/media/uvu4.jpg": "static/media/uvu4.2d4b840e.jpg",
+  "static/media/uvu5.jpg": "static/media/uvu5.2e3609a3.jpg",
+  "static/media/uvu6.jpg": "static/media/uvu6.eff7f04d.jpg",
+  "static/media/uvu7.jpg": "static/media/uvu7.bfa195f9.jpg",
+  "static/media/uvu8.jpg": "static/media/uvu8.9d546143.jpg",
+  "static/media/uvu9.jpg": "static/media/uvu9.ee0da36a.jpg"
 }
