@@ -58,7 +58,7 @@ export const SECTIONS = [
     SECTION_ENUM.UVU,
     'utah valley university',
     '#B4CFB7',
-    'utahvalleyuniversity.png'
+    'utahvalleyuniversity.jpg'
   ),
   new Section(
     SECTION_ENUM.BYU,
