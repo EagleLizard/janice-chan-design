@@ -1,15 +1,17 @@
 .image-gallery{
-  width: 100%;
-  display: flex;
-  .grid-item{
-    // display: inline-block;
-    // height: 400px;
-    // width: 22%;
-    img{
-      // width: 100%;
+  .image-gallery-grid{
+    width: 100%;
+    display: flex;
+    .grid-item{
+      // display: inline-block;
+      // height: 400px;
+      // width: 22%;
+      img{
+        cursor: pointer;
+      }
     }
-  }
-  .grid-item, .grid-sizer{
-    // width: 22%;
+    .grid-item, .grid-sizer{
+      // width: 22%;
+    }
   }
 }

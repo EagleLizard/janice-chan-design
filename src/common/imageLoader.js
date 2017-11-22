@@ -11,9 +11,14 @@ class ImageData {
     this.width = img.width;
     this.height = img.height;
     this.src = '';
+    this.id = -1;
   }
   setSource(src){
     this.src = src;
+    return this;
+  }
+  setId(id){
+    this.id = id;
     return this;
   }
 }

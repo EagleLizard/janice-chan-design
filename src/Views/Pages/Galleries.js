@@ -20,9 +20,10 @@ class Gallery {
     if(this.imagesLoaded){
       return Q.when(this.images);
     }
+    let currId = 0;
     let promises = this.imageUrls.map(imageUrl=>{
       return imageLoader.loadImage(imageUrl).then(data=>{
-        return this.images.push(data.setSource(imageUrl));
+        return this.images.push(data.setSource(imageUrl).setId(currId++));
       })
     });
     return Q.all(promises).then((res)=>{

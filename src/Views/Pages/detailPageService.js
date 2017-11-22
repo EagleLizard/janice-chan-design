@@ -5,7 +5,8 @@ import { GALLERIES, DEFAULT_GALLERY } from './Galleries';
 const detailPageService = {
   getSection: getSection,
   getDetailPage: getDetailPage,
-  getGallery: getGallery
+  getGallery: getGallery,
+  getLightboxFromImages: getLightboxFromImages
 };
 
 export default detailPageService;
@@ -34,4 +35,13 @@ function getGallery(sectionId){
   return (galleryIdx === -1)
           ? DEFAULT_GALLERY
           : GALLERIES[galleryIdx] ;
+}
+
+function getLightboxFromImages(images){
+  return images.map(image=>{
+    return {
+      src: image.src,
+      id: image.id
+    };
+  });
 }
