@@ -37,7 +37,7 @@ export const DETAIL_PAGES = [
     '',
     'prop painter',
     [
-      'Painted four shields using interior latex. The shieds were used in the jousting events.'
+      'Painted four shields for jousting events.'
     ],
     2017,
     'Lehi, Utah, U.S.A.'
