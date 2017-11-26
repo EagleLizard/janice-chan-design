@@ -6,7 +6,9 @@ export default class MainHeader extends Component{
   render(){
     return (
       <div className="main-header">
-        <img src={logo} className="header-logo" alt="logo"/>
+        <div className="header-logo">
+          <img src={logo} className="header-logo-image" alt="logo"/>
+        </div>
       </div>
     );
   }

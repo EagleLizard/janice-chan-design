@@ -29,7 +29,9 @@ export default class Contact extends React.Component {
               Email:
             </div>
             <div className="contact-content">
-              contact@janicechan.design
+              <a href="mailto:contact@janicechan.design">
+                contact@janicechan.design
+              </a>
             </div>
           </div>
         </div>
