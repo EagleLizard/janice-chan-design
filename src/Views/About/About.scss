@@ -1,0 +1,22 @@
+@import "src/global.scss";
+
+.about-page{
+  padding: 0 2vw;
+  display: flex;
+  .about-content{
+    width: 544px;
+    .about-header{
+      padding: 80px 0;
+      font-size: $font-xxlg;
+    }
+    .about-content{
+      font-size: $font-md;
+    }
+  }
+  .about-image{
+    padding-left: 150px;
+    img{
+      max-width: 600px;
+    }
+  }
+}
