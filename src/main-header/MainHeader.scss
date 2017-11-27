@@ -2,10 +2,16 @@
   font-size: 36px;
   padding:20px;
   width: 100%;
+  box-sizing: border-box;
+  display: flex;
   .header-logo{
     .header-logo-image{
       width: 183px;//277
       height:91px;//138
     }
+  }
+
+  .top-nav-container{
+    flex: 1;
   }
 }

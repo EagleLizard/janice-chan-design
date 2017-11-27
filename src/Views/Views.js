@@ -9,9 +9,10 @@ export const VIEW_IDS = [
 
 class PageView {
 
-  constructor(key, path){
+  constructor(key, path, title){
     this.key = key;
     this.path = path;
+    this.title = title;
   }
 
 }
@@ -23,21 +24,26 @@ export const DEFAULT_VIEW = VIEW_ENUM.MAIN_NAV;
 export const VIEWS = [
   new PageView(
     VIEW_ENUM.MAIN_NAV,
-    '/'
+    '/',
+    'projects'
   ),
   new PageView(
     VIEW_ENUM.DETAIL_PAGE,
-    '/work/:pageId'
+    '/work/:pageId',
+    'work'
   ),
   new PageView(
     VIEW_ENUM.ABOUT,
-    '/about'
+    '/about',
+    'about'
   ),
   new PageView(
     VIEW_ENUM.CONTACT,
-    '/contact'
+    '/contact',
+    'contact'
   )
 ].reduce((acc,curr)=>{
   acc[curr.key] = curr;
   return acc;
 }, {});
+
