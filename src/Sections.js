@@ -71,4 +71,7 @@ export const SECTIONS = [
     'miscellaneous',
     '#DFDEDD'
   )
-];
+]
+//remove MISC section for now
+.filter(section=>section.key !== SECTION_ENUM.MISC);
+
