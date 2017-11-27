@@ -1,16 +1,15 @@
 @import "src/global.scss";
 
 .contact-page{
-  display: flex;
   padding: 100px 2vw;
   
   .contact-title{
     font-size: $font-xxlg;
   }
   .contact-info{
-    padding-left: 100px;
+    // padding-left: 20px;
     .contact-item{
-      font-size: $font-md;
+      font-size: $font-lg;
       padding-top: 25px;
       .contact-type, .contact-content{
         display: inline;
