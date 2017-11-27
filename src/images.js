@@ -47,7 +47,7 @@ import UVU12 from './assets-min/lg/gallery/uvu/uvu12.jpg';
 import UVU13 from './assets-min/lg/gallery/uvu/uvu13.jpg';
 import UVU14 from './assets-min/lg/gallery/uvu/uvu14.jpg';
 
-import LUCY from './assets-min/lg/lucy-liu.jpg';
+import JANU from './assets-min/lg/janu.png';
 
 import {SECTION_ENUM} from './Sections';
 
@@ -100,5 +100,5 @@ export default {
   UVU13,
   UVU14,
 
-  LUCY
+  JANU
 };

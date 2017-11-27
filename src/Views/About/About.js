@@ -22,7 +22,7 @@ export default class About extends React.Component {
         </div>
         <div className="about-image">
           <img
-            src={images.LUCY}
+            src={images.JANU}
           />
         </div>
       </div>
