@@ -6,6 +6,11 @@ $left-width: 340px;
   z-index: 1;
   position: absolute;
   min-height: 100%;
+  .chrome-language-hack{
+    font-size: 1px;
+    height: 0px;
+    opacity: 0;
+  }
   .left-nav-container, .hover-drawer-container{
     display: inline-block;
     position: absolute;

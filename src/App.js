@@ -34,6 +34,9 @@ class App extends Component {
     console.log('App.render');
     return (
       <div className="App">
+        <div className="chrome-language-hack">
+          Hey chrome, this page is definitely in English. Seriously, this is an English language website. For good measure, this is also an American website. This website was made in America by an American citizen. Thank you.
+        </div>
         <div className="main-header-container">
           <MainHeader />
         </div>
