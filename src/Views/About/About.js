@@ -17,7 +17,7 @@ export default class About extends React.Component {
             hello,
           </div>
           <div className="about-content">
-            My name is Janice Chan and I am a scenic designer and painter. I am pursuing a B.F.A. in Theatre Design and Production with an emphasis in Scenic Design at Utah Valley University. 
+            I am a scenic designer and painter pursuing a B.F.A. in Theatre Design and Production with an emphasis in Scenic Design at Utah Valley University.
           </div>
         </div>
         <div className="about-image">
