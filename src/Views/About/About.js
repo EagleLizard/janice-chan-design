@@ -13,11 +13,16 @@ export default class About extends React.Component {
     return (
       <div className="about-page">
         <div className="about-content">
-          <div className="about-header">
-            hello,
-          </div>
-          <div className="about-content">
-            I am a scenic designer and painter pursuing a B.F.A. in Theatre Design and Production with an emphasis in Scenic Design at Utah Valley University.
+          <div className="about-text">
+          <p>
+            I’m a scenic designer and painter based in Utah, U.S.A. I’m pursuing a B.F.A. in Theatre Design and Production with an emphasis in Scenic Design at Utah Valley University. Projects I’m currently working on include&ensp; 
+            <em>Fat Pig</em>
+            ,&ensp;
+            <em>Tribes</em>
+            ,&ensp;and&ensp;
+            <em>Cabaret</em>
+            .
+          </p>
           </div>
         </div>
         <div className="about-image">
