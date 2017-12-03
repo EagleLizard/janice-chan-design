@@ -4,13 +4,16 @@ module.exports = function(grunt) {
     responsive_images: {
       resize: {
         options: {
-          sizes: [{
-            name: 'sm',
-            width: 320,
-          },{
-            name: 'lg',
-            width: 1024,
-          }]
+          sizes: [
+            // {
+            //   name: 'sm',
+            //   width: 320,
+            // },
+            {
+              name: 'lg',
+              width: 1024,
+            }
+          ]
         },
         files: [{
           expand: true,

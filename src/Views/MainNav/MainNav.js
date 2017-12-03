@@ -19,9 +19,6 @@ export default class MainNav extends React.Component {
     this.setState((prev, props)=>({
       hoverItem: Object.assign({}, getHoverItem(itemKey))
     }));
-    setTimeout(()=>{
-      console.log(this.state.hoverItem.color);
-    });
   }
 
   navItemBlurred(itemKey){

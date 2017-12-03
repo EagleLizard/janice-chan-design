@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import './MainHeader.css';
-import logo from '../assets/WebsiteLogo-min.png';
+import images from '../images';
 
 import TopNav from './top-nav/TopNav';
 
@@ -13,7 +13,7 @@ export default class MainHeader extends Component{
       <div className="main-header">
         <div className="header-logo">
           <Link to={VIEWS.MAIN_NAV.path}>
-            <img src={logo} className="header-logo-image" alt="logo"/>
+            <img src={images.LOGO} className="header-logo-image" alt="logo"/>
           </Link>
         </div>
         <div className="top-nav-container">
