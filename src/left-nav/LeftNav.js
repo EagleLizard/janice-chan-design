@@ -17,6 +17,7 @@ export default class LeftNav extends Component{
             <div 
               className="left-nav-item"
               onMouseEnter={this.props.navItemHovered.bind(this, item.key)}
+              onMouseLeave={this.props.navItemBlurred.bind(this, item.key)}
               onClick={this.props.navItemClicked.bind(this,item.key)}>
               <div 
                 className="left-nav-item-text"

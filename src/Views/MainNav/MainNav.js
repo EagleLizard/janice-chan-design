@@ -21,7 +21,13 @@ export default class MainNav extends React.Component {
     }));
     setTimeout(()=>{
       console.log(this.state.hoverItem.color);
-    })
+    });
+  }
+
+  navItemBlurred(itemKey){
+    this.setState((prev, props)=>({
+      hoverItem: null
+    }));
   }
 
   render(props){
@@ -32,6 +38,7 @@ export default class MainNav extends React.Component {
             navItems={ this.props.sections }
             itemKey={this.state.hoverItem}
             navItemHovered={this.navItemHovered.bind(this)}
+            navItemBlurred={this.navItemBlurred.bind(this)}
             navItemClicked={this.props.navItemClicked}
           />
         </div>

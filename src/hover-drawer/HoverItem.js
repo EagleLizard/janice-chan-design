@@ -15,7 +15,6 @@ const HOVER_ITEMS = Object.keys(LEFT_NAV_ENUM).reduce((acc,curr, idx, arr)=>{
     LEFT_NAV_ENUM[curr],
     null,
     `rgb(${colorTransform},${colorTransform},${colorTransform})`
-    // `rgba(0,0,0,${colorTransform})`
   );
   return acc;
 }, {});

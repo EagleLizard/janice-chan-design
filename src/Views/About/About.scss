@@ -6,6 +6,8 @@
   align-items: center;
   .about-content{
     width: 614px;
+    min-width: 614px;
+    padding-bottom: 70px;
     .about-text{
       word-wrap: break-word;
       font-size: $font-md;
