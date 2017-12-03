@@ -17,11 +17,12 @@
     font-size: $font-md;
     &:hover> .left-nav-item-text, .left-nav-item-text:hover{
       transform: translateX(70px);
+      color: $link-hover-color;
     }
     .left-nav-item-text{
       cursor: pointer;
       color:inherit;
-      transition: transform 0.4s ease-in-out, color 0.4s;
+      transition: transform 0.4s ease, color 0.4s;
     }
   }
 }

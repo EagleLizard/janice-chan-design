@@ -20,10 +20,10 @@ export default class LeftNav extends Component{
               onClick={this.props.navItemClicked.bind(this,item.key)}>
               <div 
                 className="left-nav-item-text"
-                style={{ 
+                /*style={{ 
                   color: (this.props.itemKey && (item.key === this.props.itemKey.key)) 
                           ? item.navColor : 'inherit' 
-                }}>
+                }}*/>
                 {item.title}
               </div>
             </div>
