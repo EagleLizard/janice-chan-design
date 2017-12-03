@@ -12,7 +12,7 @@
     color: inherit;
     transition: color 0.1s;
     &:hover{
-      color: rgb(173, 219, 255);
+      color: $link-hover-color;
     }
     .nav-item-text{
       padding: 0 20px;
