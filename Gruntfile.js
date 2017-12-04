@@ -11,9 +11,11 @@ module.exports = function(grunt) {
             // },
             {
               name: 'lg',
-              width: 1024,
+              height: 682,
+              // width: 1024,
             }
-          ]
+          ],
+          concurrency: 7
         },
         files: [{
           expand: true,
