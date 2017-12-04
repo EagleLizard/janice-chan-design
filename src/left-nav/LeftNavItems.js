@@ -2,6 +2,7 @@
 import constEnum from '../constEnum';
 
 export const LEFT_NAV_ENUM = constEnum(
+  'HOME',
   'SUNDANCE',
   'RENAISSANCE_NOW',
   'RENAISSANCE_FAIRE',

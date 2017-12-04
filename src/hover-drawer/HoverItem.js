@@ -22,3 +22,5 @@ const HOVER_ITEMS = Object.keys(LEFT_NAV_ENUM).reduce((acc,curr, idx, arr)=>{
 export function getHoverItem(itemKey){
   return HOVER_ITEMS[itemKey] || null;
 }
+
+export const HOME_HOVER_ITEM = getHoverItem(LEFT_NAV_ENUM.HOME);

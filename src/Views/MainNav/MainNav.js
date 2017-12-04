@@ -4,15 +4,17 @@ import './MainNav.css';
 import HoverDrawer from '../../hover-drawer/HoverDrawer';
 import LeftNav from '../../left-nav/LeftNav';
 
-import { getHoverItem } from '../../hover-drawer/HoverItem';
+import { getHoverItem, HOME_HOVER_ITEM } from '../../hover-drawer/HoverItem';
+import { PROJECTS_HOME } from '../../Sections';
 
 export default class MainNav extends React.Component {
  
   constructor(props){
     super(props);
     this.state = {
-      hoverItem: null
+      hoverItem: HOME_HOVER_ITEM
     };
+    console.log(this.state);
   }
 
   navItemHovered(itemKey){
@@ -23,7 +25,7 @@ export default class MainNav extends React.Component {
 
   navItemBlurred(itemKey){
     this.setState((prev, props)=>({
-      hoverItem: null
+      hoverItem: HOME_HOVER_ITEM
     }));
   }
 
@@ -41,7 +43,7 @@ export default class MainNav extends React.Component {
         </div>
         <div className="hover-drawer-container">
           <HoverDrawer 
-            hoverItems={ this.props.sections }
+            hoverItems={ [...this.props.sections, PROJECTS_HOME] }
             itemKey={this.state.hoverItem}
           />
         </div>

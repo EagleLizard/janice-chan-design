@@ -20,6 +20,7 @@ export class Section {
 }
 
 export const SECTION_IDS = [
+  'HOME',
   'SUNDANCE',
   'RENAISSANCE_NOW',
   'RENAISSANCE_FAIRE',
@@ -34,6 +35,13 @@ const PAGE_URLS = SECTION_IDS.reduce((acc,curr)=>{
   acc[curr] = curr.toLowerCase().replace('_', '-');
   return acc;
 }, {})
+
+export const PROJECTS_HOME = new Section(
+  SECTION_ENUM.HOME,
+  null,
+  null,
+  'projects-home.png'
+)
 
 export const SECTIONS = [
   new Section(
