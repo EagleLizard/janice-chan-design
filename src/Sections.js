@@ -22,8 +22,10 @@ export class Section {
 export const SECTION_IDS = [
   'HOME',
   'SUNDANCE',
+  'FAT_PIG',
   'RENAISSANCE_NOW',
   'RENAISSANCE_FAIRE',
+  'TRIBES',
   'UVU',
   'BYU',
   'MISC'
@@ -51,6 +53,12 @@ export const SECTIONS = [
     'sundancesummertheatre.jpg'
   ),
   new Section(
+    SECTION_ENUM.FAT_PIG,
+    'fat pig',
+    '#D6E0BD',
+    'fatpig.jpg'
+  ),
+  new Section(
     SECTION_ENUM.RENAISSANCE_NOW,
     'renaissance now',
     '#E2C7C3',
@@ -61,6 +69,12 @@ export const SECTIONS = [
     'utah renaissance faire',
     '#D3C5C2',
     'utahrenaissancefaire.png'
+  ),
+  new Section(
+    SECTION_ENUM.TRIBES,
+    'tribes',
+    '#D6E0BD',
+    'tribes.jpg'
   ),
   new Section(
     SECTION_ENUM.UVU,

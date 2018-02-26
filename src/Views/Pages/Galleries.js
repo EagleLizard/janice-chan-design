@@ -111,5 +111,42 @@ export const GALLERIES = [
       images.UVU14
     ],
     true
+  ),
+  new Gallery(
+    SECTION_ENUM.FAT_PIG,
+    [
+      images.FATPIG1,
+      images.FATPIG2,
+      images.FATPIG3,
+      images.FATPIG4,
+      images.FATPIG5,
+      images.FATPIG6,
+      images.FATPIG7,
+      images.FATPIG8,
+      images.FATPIG9,
+      images.FATPIG10,
+      images.FATPIG11,
+      images.FATPIG12
+    ],
+    true
+  ),
+  new Gallery(
+    SECTION_ENUM.TRIBES,
+    [
+      images.TRIBES1,
+      images.TRIBES2,
+      images.TRIBES3,
+      images.TRIBES4,
+      images.TRIBES5,
+      images.TRIBES6,
+      images.TRIBES7,
+      images.TRIBES8,
+      images.TRIBES9,
+      images.TRIBES10,
+      images.TRIBES11,
+      images.TRIBES12,
+      images.TRIBES13,
+      images.TRIBES14
+    ]
   )
 ];

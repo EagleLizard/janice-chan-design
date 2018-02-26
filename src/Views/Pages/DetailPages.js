@@ -85,6 +85,34 @@ export const DETAIL_PAGES = [
     ],
     2017,
     'Provo, Utah, U.S.A.'
+  ),
+  new DetailPage(
+    SECTION_ENUM.FAT_PIG,
+    'AN OTHER THEATER COMPANY',
+    'Fat Pig',
+    'scenic designer',
+    [
+      'Director: Morag Shepherd',
+      'Lights: Paige Porter',
+      'Sound: Paige Porter',
+      'Costumes: Chris Lancaster'
+    ],
+    2018,
+    'Provo, Utah, U.S.A.'
+  ),
+  new DetailPage(
+    SECTION_ENUM.TRIBES,
+    'UTAH VALLEY UNIVERSITY',
+    'Tribes',
+    'scenic designer',
+    [
+      'Director: Hayley Lambdin',
+      'Lights: Aaron Gubler',
+      'Sound: Gavin Henry',
+      'Costumes: Molly Pack'
+    ],
+    2018,
+    'Orem, Utah, U.S.A.'
   )
 ];
 
