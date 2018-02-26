@@ -47,10 +47,10 @@ export const PROJECTS_HOME = new Section(
 
 export const SECTIONS = [
   new Section(
-    SECTION_ENUM.SUNDANCE,
-    'sundance summer theatre',
+    SECTION_ENUM.TRIBES,
+    'tribes',
     '#D6E0BD',
-    'sundancesummertheatre.jpg'
+    'tribes.jpg'
   ),
   new Section(
     SECTION_ENUM.FAT_PIG,
@@ -59,34 +59,34 @@ export const SECTIONS = [
     'fatpig.jpg'
   ),
   new Section(
+    SECTION_ENUM.UVU,
+    'a year with frog and toad',
+    '#B4CFB7',
+    'utahvalleyuniversity.jpg'
+  ),
+  new Section(
+    SECTION_ENUM.SUNDANCE,
+    'joseph and the amazing technicolor dreamcoat',
+    '#D6E0BD',
+    'sundancesummertheatre.jpg'
+  ),
+  new Section(
     SECTION_ENUM.RENAISSANCE_NOW,
-    'renaissance now',
+    'the taming of the shrew',
     '#E2C7C3',
     'renaissancenow.jpg'
+  ),
+  new Section(
+    SECTION_ENUM.BYU,
+    'hamlet',
+    '#DEEAEE',
+    'brighamyounguniversity.jpg'
   ),
   new Section(
     SECTION_ENUM.RENAISSANCE_FAIRE,
     'utah renaissance faire',
     '#D3C5C2',
     'utahrenaissancefaire.png'
-  ),
-  new Section(
-    SECTION_ENUM.TRIBES,
-    'tribes',
-    '#D6E0BD',
-    'tribes.jpg'
-  ),
-  new Section(
-    SECTION_ENUM.UVU,
-    'utah valley university',
-    '#B4CFB7',
-    'utahvalleyuniversity.jpg'
-  ),
-  new Section(
-    SECTION_ENUM.BYU,
-    'brigham young university',
-    '#DEEAEE',
-    'brighamyounguniversity.jpg'
   ),
   new Section(
     SECTION_ENUM.MISC,
