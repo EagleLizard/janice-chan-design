@@ -4,20 +4,25 @@
   padding: 0 2vw;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   .about-content{
-    width: 614px;
-    min-width: 614px;
+    width: 514px;
+    min-width: 514px;
     padding-bottom: 70px;
     .about-text{
       word-wrap: break-word;
-      font-size: $font-md;
+      line-height: 1.5;
+      font-size: $font-xs;
+      .contact-info{
+        padding-top: 30px;
+      }
     }
   }
   .about-image{
-    padding-left: 115px;
-    padding-top: 50px;
+    padding-right: 30%;
+    padding-left: 100px;
     img{
-      max-width: 600px;
+      max-width: 500px;
     }
   }
 }

@@ -76,7 +76,7 @@ import TRIBES13 from './assets-min/lg/gallery/tribes/tribes13.jpg';
 import TRIBES14 from './assets-min/lg/gallery/tribes/tribes14.jpg';
 
 //one-off images
-import JANU from './assets-min/lg/janu.png';
+import JANU from './assets-min/lg/janu.jpg';
 import LOGO from './assets-min/lg/WebsiteLogo-min.png';
 
 import {SECTION_ENUM} from './Sections';

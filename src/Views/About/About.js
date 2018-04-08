@@ -14,15 +14,18 @@ export default class About extends React.Component {
       <div className="about-page">
         <div className="about-content">
           <div className="about-text">
-          <p>
-            I’m a scenic designer and painter based in Utah, U.S.A. I’m pursuing a B.F.A. in Theatre Design and Production with an emphasis in Scenic Design at Utah Valley University. Projects I’m currently working on include&ensp; 
-            <em>Fat Pig</em>
-            ,&ensp;
-            <em>Tribes</em>
-            ,&ensp;and&ensp;
-            <em>Cabaret</em>
-            .
-          </p>
+            <p>
+              Janice Chan is a set designer and painter based in Utah, U.S.A. She is currently pursuing a B.F.A. in Theatre Design and Production at Utah Valley University. Her upcoming projects include An Other Theater Company’s productions of&nbsp;
+              <em>Next Fall</em>
+              &nbsp;and&nbsp;
+              <em>The Drag</em>
+              ,&nbsp;and Utah Valley University's production of&nbsp;
+              <em>The Laramie Project</em>
+              .
+            </p>
+            <p className="contact-info">
+              For inquiries, please email <a href="mailto:contact@janicechan.design">contact@janicechan.design</a>
+            </p>
           </div>
         </div>
         <div className="about-image">
