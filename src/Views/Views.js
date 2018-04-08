@@ -3,8 +3,7 @@ import constEnum from '../constEnum';
 export const VIEW_IDS = [
   'MAIN_NAV',
   'DETAIL_PAGE',
-  'ABOUT',
-  'CONTACT'
+  'ABOUT'
 ];
 
 class PageView {
@@ -36,11 +35,6 @@ export const VIEWS = [
     VIEW_ENUM.ABOUT,
     '/about',
     'about'
-  ),
-  new PageView(
-    VIEW_ENUM.CONTACT,
-    '/contact',
-    'contact'
   )
 ].reduce((acc,curr)=>{
   acc[curr.key] = curr;

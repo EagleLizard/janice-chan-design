@@ -6,8 +6,7 @@ import { VIEWS } from '../../Views/Views';
 
 const NAV_VIEWS = [
   VIEWS.MAIN_NAV,
-  VIEWS.ABOUT,
-  VIEWS.CONTACT
+  VIEWS.ABOUT
 ];
 
 export default class TopNav extends React.Component {

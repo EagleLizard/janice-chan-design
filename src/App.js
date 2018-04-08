@@ -8,7 +8,6 @@ import { VIEW_ENUM, DEFAULT_VIEW, VIEWS } from './Views/Views';
 import MainNav from './Views/MainNav/MainNav';
 import DetailPage from './Views/Pages/DetailPage';
 import About from './Views/About/About';
-import Contact from './Views/Contact/Contact';
 
 class App extends Component {
 
@@ -58,10 +57,6 @@ class App extends Component {
           <Route
             path={VIEWS.ABOUT.path}
             component={About}
-          />
-          <Route
-            path={VIEWS.CONTACT.path}
-            component={Contact}
           />
         </Switch>
       </div>

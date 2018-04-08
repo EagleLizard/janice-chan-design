@@ -5,8 +5,9 @@
   display: flex;
   align-items: flex-start;
   justify-content: flex-end;
+  padding-right: 10px;
   .top-nav-item{
-    font-size: $font-lg;
+    font-size: $font-md;
     cursor: pointer;
     text-decoration: none;
     color: inherit;
