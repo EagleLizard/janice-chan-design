@@ -37,9 +37,9 @@ export const DETAIL_PAGES = [
     '',
     'prop painter',
     [
-      'Painted four shields for jousting events.'
+      
     ],
-    2017,
+    '2017, 2018',
     'Lehi, Utah, U.S.A.'
   ),
   new DetailPage(
