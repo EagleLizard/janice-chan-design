@@ -10,11 +10,11 @@
   .left-nav-item{
     // display: inline;
     padding: 3px 0;
-    padding-top: 10px;
+    padding-top: 15px;
     user-select: none;
     cursor: pointer;
     color: #000;
-    font-size: $font-md;
+    font-size: $font-sm;
     &:hover> .left-nav-item-text, .left-nav-item-text:hover{
       transform: translateX(70px);
       color: $link-hover-color;
