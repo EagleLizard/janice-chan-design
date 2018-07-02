@@ -1,18 +1,17 @@
 import constEnum from './constEnum';
-import { LeftNavItem } from './left-nav/LeftNavItems';
+import imageUris from './image-uris';
 const Color = require('color');
 const PAGE_BASE_URL = '/work/';
-const PLACEHOLDER_IMAGE_URL = 'bigbird.jpg';
 
 export class Section {
   constructor(key, title, color, hoverPhotoUrl){
     this.key = key;
     this.title = title;
     if(hoverPhotoUrl){
-      this.hoverPhotoUrl = require('./assets-min/lg/'+hoverPhotoUrl);
+      this.hoverPhotoUrl = hoverPhotoUrl;
       console.log(this.hoverPhotoUrl);
     }else{
-      this.hoverPhotoUrl = require('./assets-min/lg/'+PLACEHOLDER_IMAGE_URL);
+      this.hoverPhotoUrl = imageUris.PLACEHOLDER;
     }
     this.navColor = Color(color).darken(0.1).hex();
     this.pageUrl = PAGE_BASE_URL+PAGE_URLS[key];
@@ -42,7 +41,7 @@ export const PROJECTS_HOME = new Section(
   SECTION_ENUM.HOME,
   null,
   null,
-  'projects-home.png'
+  imageUris.PROJECTS_HOME
 )
 
 export const SECTIONS = [
@@ -50,43 +49,43 @@ export const SECTIONS = [
     SECTION_ENUM.TRIBES,
     'tribes',
     '#D6E0BD',
-    'tribes.jpg'
+    imageUris.TRIBES
   ),
   new Section(
     SECTION_ENUM.FAT_PIG,
     'fat pig',
     '#D6E0BD',
-    'fatpig.jpg'
+    imageUris.FAT_PIG
   ),
   new Section(
     SECTION_ENUM.UVU,
     'a year with frog and toad',
     '#B4CFB7',
-    'utahvalleyuniversity.jpg'
+    imageUris.UVU
   ),
   new Section(
     SECTION_ENUM.SUNDANCE,
     'joseph and the amazing technicolor dreamcoat',
     '#D6E0BD',
-    'sundancesummertheatre.jpg'
+    imageUris.SUNDANCE
   ),
   new Section(
     SECTION_ENUM.RENAISSANCE_NOW,
     'the taming of the shrew',
     '#E2C7C3',
-    'renaissancenow.jpg'
+    imageUris.RENAISSANCE_NOW
   ),
   new Section(
     SECTION_ENUM.BYU,
     'hamlet',
     '#DEEAEE',
-    'brighamyounguniversity.jpg'
+    imageUris.BYU
   ),
   new Section(
     SECTION_ENUM.RENAISSANCE_FAIRE,
     'utah renaissance faire',
     '#D3C5C2',
-    'utahrenaissancefaire.png'
+    imageUris.RENAISSANCE_FAIRE
   ),
   new Section(
     SECTION_ENUM.MISC,

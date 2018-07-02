@@ -1,6 +1,7 @@
 
 import { SECTION_ENUM } from '../../Sections';
 import images from '../../images';
+import imageUris from '../../image-uris';
 
 import Q from 'q';
 
@@ -132,21 +133,22 @@ export const GALLERIES = [
   ),
   new Gallery(
     SECTION_ENUM.TRIBES,
-    [
-      images.TRIBES1,
-      images.TRIBES2,
-      images.TRIBES3,
-      images.TRIBES4,
-      images.TRIBES5,
-      images.TRIBES6,
-      images.TRIBES7,
-      images.TRIBES8,
-      images.TRIBES9,
-      images.TRIBES10,
-      images.TRIBES11,
-      images.TRIBES12,
-      images.TRIBES13,
-      images.TRIBES14
-    ]
+    imageUris.TRIBES_GALLERY
+    // [
+    //   images.TRIBES1,
+    //   images.TRIBES2,
+    //   images.TRIBES3,
+    //   images.TRIBES4,
+    //   images.TRIBES5,
+    //   images.TRIBES6,
+    //   images.TRIBES7,
+    //   images.TRIBES8,
+    //   images.TRIBES9,
+    //   images.TRIBES10,
+    //   images.TRIBES11,
+    //   images.TRIBES12,
+    //   images.TRIBES13,
+    //   images.TRIBES14
+    // ]
   )
 ];

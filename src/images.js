@@ -60,20 +60,20 @@ import FATPIG10 from './assets-min/lg/gallery/fatpig/fatpig10.jpg';
 import FATPIG11 from './assets-min/lg/gallery/fatpig/fatpig11.jpg';
 import FATPIG12 from './assets-min/lg/gallery/fatpig/fatpig12.jpg';
 
-import TRIBES1 from './assets-min/lg/gallery/tribes/tribes1.jpg';
-import TRIBES2 from './assets-min/lg/gallery/tribes/tribes2.jpg';
-import TRIBES3 from './assets-min/lg/gallery/tribes/tribes3.jpg';
-import TRIBES4 from './assets-min/lg/gallery/tribes/tribes4.jpg';
-import TRIBES5 from './assets-min/lg/gallery/tribes/tribes5.jpg';
-import TRIBES6 from './assets-min/lg/gallery/tribes/tribes6.jpg';
-import TRIBES7 from './assets-min/lg/gallery/tribes/tribes7.jpg';
-import TRIBES8 from './assets-min/lg/gallery/tribes/tribes8.jpg';
-import TRIBES9 from './assets-min/lg/gallery/tribes/tribes9.jpg';
-import TRIBES10 from './assets-min/lg/gallery/tribes/tribes10.jpg';
-import TRIBES11 from './assets-min/lg/gallery/tribes/tribes11.jpg';
-import TRIBES12 from './assets-min/lg/gallery/tribes/tribes12.jpg';
-import TRIBES13 from './assets-min/lg/gallery/tribes/tribes13.jpg';
-import TRIBES14 from './assets-min/lg/gallery/tribes/tribes14.jpg';
+// import TRIBES1 from './assets-min/lg/gallery/tribes/tribes1.jpg';
+// import TRIBES2 from './assets-min/lg/gallery/tribes/tribes2.jpg';
+// import TRIBES3 from './assets-min/lg/gallery/tribes/tribes3.jpg';
+// import TRIBES4 from './assets-min/lg/gallery/tribes/tribes4.jpg';
+// import TRIBES5 from './assets-min/lg/gallery/tribes/tribes5.jpg';
+// import TRIBES6 from './assets-min/lg/gallery/tribes/tribes6.jpg';
+// import TRIBES7 from './assets-min/lg/gallery/tribes/tribes7.jpg';
+// import TRIBES8 from './assets-min/lg/gallery/tribes/tribes8.jpg';
+// import TRIBES9 from './assets-min/lg/gallery/tribes/tribes9.jpg';
+// import TRIBES10 from './assets-min/lg/gallery/tribes/tribes10.jpg';
+// import TRIBES11 from './assets-min/lg/gallery/tribes/tribes11.jpg';
+// import TRIBES12 from './assets-min/lg/gallery/tribes/tribes12.jpg';
+// import TRIBES13 from './assets-min/lg/gallery/tribes/tribes13.jpg';
+// import TRIBES14 from './assets-min/lg/gallery/tribes/tribes14.jpg';
 
 //one-off images
 import JANU from './assets-min/lg/janu.jpg';
@@ -143,20 +143,20 @@ export default {
   FATPIG11,
   FATPIG12,
 
-  TRIBES1,
-  TRIBES2,
-  TRIBES3,
-  TRIBES4,
-  TRIBES5,
-  TRIBES6,
-  TRIBES7,
-  TRIBES8,
-  TRIBES9,
-  TRIBES10,
-  TRIBES11,
-  TRIBES12,
-  TRIBES13,
-  TRIBES14,
+  // TRIBES1,
+  // TRIBES2,
+  // TRIBES3,
+  // TRIBES4,
+  // TRIBES5,
+  // TRIBES6,
+  // TRIBES7,
+  // TRIBES8,
+  // TRIBES9,
+  // TRIBES10,
+  // TRIBES11,
+  // TRIBES12,
+  // TRIBES13,
+  // TRIBES14,
 
   JANU,
   LOGO

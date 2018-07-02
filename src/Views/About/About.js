@@ -2,6 +2,7 @@ import React from 'react';
 import './About.css';
 
 import images from '../../images';
+import imageUris from '../../image-uris';
 
 export default class About extends React.Component {
 
@@ -30,7 +31,7 @@ export default class About extends React.Component {
         </div>
         <div className="about-image">
           <img
-            src={images.JANU}
+            src={imageUris.JANU}
           />
         </div>
       </div>
