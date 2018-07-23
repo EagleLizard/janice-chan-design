@@ -1,3 +1,19 @@
+var EXCLUDES = [
+  'Janu.jpg',
+  'tribes*.jpg',
+  'WebsiteLogo-min.png',
+  'projects-home.png',
+  'janu.jpg',
+  'utahrenaissancefaire.png',
+  'brighamyounguniversity.jpg',
+  'sundancesummertheatre.jpg',
+  'renaissancenow.jpg',
+  'utahvalleyuniversity.jpg',
+  'fatpig.jpg',
+  'tribes.jpg',
+  'bigbird.jpg'
+].map(s=>`!${s}`);
+
 module.exports = function(grunt) {
   grunt.initConfig({
 
@@ -19,9 +35,9 @@ module.exports = function(grunt) {
         },
         files: [{
           expand: true,
-          src: ['**/*.{jpg,gif,png}'],
+          src: ['**/*.{jpg,gif,png}', ...EXCLUDES],
           cwd: 'src/assets/',
-          custom_dest: 'src/assets-resized/{%= name %}/{%= path %}'
+          custom_dest: 'src/assets-resized/{%= name %}/{%= path %}',
         }]
       }
     },

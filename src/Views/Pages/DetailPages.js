@@ -26,7 +26,8 @@ export const DETAIL_PAGES = [
     [
       'Director: Archelaus D. Crisanto',
       'Assistant Director: Sarah Butler',
-      'Costumes: Amanda Louise Hellewell'
+      'Costumes: Amanda Louise Hellewell',
+      'Photos: Bruce Miller, Janice Chan',
     ],
     2017,
     'Provo, Utah, U.S.A.',
