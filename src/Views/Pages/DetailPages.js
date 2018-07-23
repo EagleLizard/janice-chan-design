@@ -84,7 +84,8 @@ export const DETAIL_PAGES = [
       'Director: Chris Hults',
       'Lights: Kalea Crapo',
       'Sound: Matthew Kupferer',
-      'Costumes: Sarah Ziegler'
+      'Costumes: Sarah Ziegler',
+      'Photos: Matthew Kupferer',
     ],
     2017,
     'Provo, Utah, U.S.A.'
@@ -98,7 +99,8 @@ export const DETAIL_PAGES = [
       'Director: Morag Shepherd',
       'Lights: Paige Porter',
       'Sound: Paige Porter',
-      'Costumes: Chris Lancaster'
+      'Costumes: Chris Lancaster',
+      'Photos: Laura Chapman',
     ],
     2018,
     'Provo, Utah, U.S.A.'
