@@ -112,7 +112,8 @@ export const DETAIL_PAGES = [
       'Director: Hayley Lambdin',
       'Lights: Aaron Gubler',
       'Sound: Gavin Henry',
-      'Costumes: Molly Pack'
+      'Costumes: Molly Pack',
+      'Photos: Deric Lambdin',
     ],
     2018,
     'Orem, Utah, U.S.A.'
