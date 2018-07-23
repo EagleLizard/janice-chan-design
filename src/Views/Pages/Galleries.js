@@ -115,20 +115,21 @@ export const GALLERIES = [
   ),
   new Gallery(
     SECTION_ENUM.FAT_PIG,
-    [
-      images.FATPIG1,
-      images.FATPIG2,
-      images.FATPIG3,
-      images.FATPIG4,
-      images.FATPIG5,
-      images.FATPIG6,
-      images.FATPIG7,
-      images.FATPIG8,
-      images.FATPIG9,
-      images.FATPIG10,
-      images.FATPIG11,
-      images.FATPIG12
-    ],
+    imageUris.FAT_PIG_GALLERY,
+    // [
+    //   images.FATPIG1,
+    //   images.FATPIG2,
+    //   images.FATPIG3,
+    //   images.FATPIG4,
+    //   images.FATPIG5,
+    //   images.FATPIG6,
+    //   images.FATPIG7,
+    //   images.FATPIG8,
+    //   images.FATPIG9,
+    //   images.FATPIG10,
+    //   images.FATPIG11,
+    //   images.FATPIG12
+    // ],
     true
   ),
   new Gallery(

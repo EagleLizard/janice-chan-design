@@ -47,18 +47,18 @@ import UVU12 from './assets-min/lg/gallery/uvu/uvu12.jpg';
 import UVU13 from './assets-min/lg/gallery/uvu/uvu13.jpg';
 import UVU14 from './assets-min/lg/gallery/uvu/uvu14.jpg';
 
-import FATPIG1 from './assets-min/lg/gallery/fatpig/fatpig1.jpg';
-import FATPIG2 from './assets-min/lg/gallery/fatpig/fatpig2.jpg';
-import FATPIG3 from './assets-min/lg/gallery/fatpig/fatpig3.jpg';
-import FATPIG4 from './assets-min/lg/gallery/fatpig/fatpig4.jpg';
-import FATPIG5 from './assets-min/lg/gallery/fatpig/fatpig5.jpg';
-import FATPIG6 from './assets-min/lg/gallery/fatpig/fatpig6.jpg';
-import FATPIG7 from './assets-min/lg/gallery/fatpig/fatpig7.jpg';
-import FATPIG8 from './assets-min/lg/gallery/fatpig/fatpig8.jpg';
-import FATPIG9 from './assets-min/lg/gallery/fatpig/fatpig9.jpg';
-import FATPIG10 from './assets-min/lg/gallery/fatpig/fatpig10.jpg';
-import FATPIG11 from './assets-min/lg/gallery/fatpig/fatpig11.jpg';
-import FATPIG12 from './assets-min/lg/gallery/fatpig/fatpig12.jpg';
+// import FATPIG1 from './assets-min/lg/gallery/fatpig/fatpig1.jpg';
+// import FATPIG2 from './assets-min/lg/gallery/fatpig/fatpig2.jpg';
+// import FATPIG3 from './assets-min/lg/gallery/fatpig/fatpig3.jpg';
+// import FATPIG4 from './assets-min/lg/gallery/fatpig/fatpig4.jpg';
+// import FATPIG5 from './assets-min/lg/gallery/fatpig/fatpig5.jpg';
+// import FATPIG6 from './assets-min/lg/gallery/fatpig/fatpig6.jpg';
+// import FATPIG7 from './assets-min/lg/gallery/fatpig/fatpig7.jpg';
+// import FATPIG8 from './assets-min/lg/gallery/fatpig/fatpig8.jpg';
+// import FATPIG9 from './assets-min/lg/gallery/fatpig/fatpig9.jpg';
+// import FATPIG10 from './assets-min/lg/gallery/fatpig/fatpig10.jpg';
+// import FATPIG11 from './assets-min/lg/gallery/fatpig/fatpig11.jpg';
+// import FATPIG12 from './assets-min/lg/gallery/fatpig/fatpig12.jpg';
 
 // import TRIBES1 from './assets-min/lg/gallery/tribes/tribes1.jpg';
 // import TRIBES2 from './assets-min/lg/gallery/tribes/tribes2.jpg';
@@ -130,18 +130,18 @@ export default {
   UVU13,
   UVU14,
 
-  FATPIG1,
-  FATPIG2,
-  FATPIG3,
-  FATPIG4,
-  FATPIG5,
-  FATPIG6,
-  FATPIG7,
-  FATPIG8,
-  FATPIG9,
-  FATPIG10,
-  FATPIG11,
-  FATPIG12,
+  // FATPIG1,
+  // FATPIG2,
+  // FATPIG3,
+  // FATPIG4,
+  // FATPIG5,
+  // FATPIG6,
+  // FATPIG7,
+  // FATPIG8,
+  // FATPIG9,
+  // FATPIG10,
+  // FATPIG11,
+  // FATPIG12,
 
   // TRIBES1,
   // TRIBES2,

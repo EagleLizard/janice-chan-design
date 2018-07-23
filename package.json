@@ -15,7 +15,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "grunt images && npm run build-css && react-scripts build && npm run clean-images",
+    "images": "npm run clean-images && grunt images",
+    "build": "npm run images && npm run build-css && react-scripts build && npm run clean-images",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "build-css": "node-sass-chokidar src/ -o src/",

@@ -31,6 +31,21 @@ const TRIBES_GALLERY = [
   imageUri('tribes/tribes14.jpg')
 ];
 
+const FAT_PIG_GALLERY = [
+  imageUri('fatpig/fatpig1.jpg'),
+  imageUri('fatpig/fatpig2.jpg'),
+  imageUri('fatpig/fatpig3.jpg'),
+  imageUri('fatpig/fatpig4.jpg'),
+  imageUri('fatpig/fatpig5.jpg'),
+  imageUri('fatpig/fatpig6.jpg'),
+  imageUri('fatpig/fatpig7.jpg'),
+  imageUri('fatpig/fatpig8.jpg'),
+  imageUri('fatpig/fatpig9.jpg'),
+  imageUri('fatpig/fatpig10.jpg'),
+  imageUri('fatpig/fatpig11.jpg'),
+  imageUri('fatpig/fatpig12.jpg'),
+];
+
 export default {
   LOGO,
   PROJECTS_HOME,
@@ -45,7 +60,8 @@ export default {
   TRIBES,
   PLACEHOLDER,
 
-  TRIBES_GALLERY
+  TRIBES_GALLERY,
+  FAT_PIG_GALLERY
 };
 
 function imageUri(fileKey){
