@@ -76,8 +76,8 @@ import FATPIG12 from './assets-min/lg/gallery/fatpig/fatpig12.jpg';
 // import TRIBES14 from './assets-min/lg/gallery/tribes/tribes14.jpg';
 
 //one-off images
-import JANU from './assets-min/lg/janu.jpg';
-import LOGO from './assets-min/lg/WebsiteLogo-min.png';
+// import JANU from './assets-min/lg/janu.jpg';
+// import LOGO from './assets-min/lg/WebsiteLogo-min.png';
 
 import {SECTION_ENUM} from './Sections';
 
@@ -158,6 +158,6 @@ export default {
   // TRIBES13,
   // TRIBES14,
 
-  JANU,
-  LOGO
+  // JANU,
+  // LOGO
 };

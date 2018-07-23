@@ -65,9 +65,11 @@ export const DETAIL_PAGES = [
     [
       'Director: Lisa Hall Hagen',
       'Scenic: Emma Belnap',
+      'Props: Alicia Freeman',
       'Lights: Aaron Gubler',
       'Sound: Kevin Criman',
-      'Costumes: Chris Lancaster'
+      'Costumes: Chris Lancaster',
+      'Photos: Great Projects Photography',
     ],
     2017,
     'Orem, Utah, U.S.A.'
