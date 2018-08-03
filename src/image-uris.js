@@ -63,6 +63,20 @@ const UVU_GALLERY = [
   imageUri('uvu/uvu14.jpg'),
 ];
 
+const SUNDANCE_GALLERY = [
+  imageUri('sundance/sundance1.jpg'),
+  imageUri('sundance/sundance2.jpg'),
+  imageUri('sundance/sundance3.jpg'),
+  imageUri('sundance/sundance4.jpg'),
+  imageUri('sundance/sundance5.jpg'),
+  imageUri('sundance/sundance6.jpg'),
+  imageUri('sundance/sundance7.jpg'),
+  imageUri('sundance/sundance8.jpg'),
+  imageUri('sundance/sundance9.jpg'),
+  imageUri('sundance/sundance10.jpg'),
+  imageUri('sundance/sundance11.jpg'),
+]
+
 export default {
   LOGO,
   PROJECTS_HOME,
@@ -80,6 +94,7 @@ export default {
   TRIBES_GALLERY,
   FAT_PIG_GALLERY,
   UVU_GALLERY,
+  SUNDANCE_GALLERY,
 };
 
 function imageUri(fileKey){

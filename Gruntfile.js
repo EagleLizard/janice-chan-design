@@ -3,6 +3,7 @@ var EXCLUDES = [
   'tribes*.jpg',
   '**/fatpig/*.jpg',
   '**/uvu/*.jpg',
+  '**/sundance/*.jpg',
   'WebsiteLogo-min.png',
   'projects-home.png',
   'janu.jpg',

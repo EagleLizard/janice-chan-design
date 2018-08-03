@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.98787612.css",
   "main.css.map": "static/css/main.98787612.css.map",
-  "main.js": "static/js/main.3dae18fe.js",
-  "main.js.map": "static/js/main.3dae18fe.js.map",
+  "main.js": "static/js/main.e91e0c8f.js",
+  "main.js.map": "static/js/main.e91e0c8f.js.map",
   "static/media/BYU1.jpg": "static/media/BYU1.96ba9cc2.jpg",
   "static/media/BYU2.jpg": "static/media/BYU2.02251151.jpg",
   "static/media/BYU3.jpg": "static/media/BYU3.eebb5e8f.jpg",
@@ -20,16 +20,5 @@
   "static/media/renaissancenow2.jpg": "static/media/renaissancenow2.776686ed.jpg",
   "static/media/renaissancenow3.jpg": "static/media/renaissancenow3.bf9df66e.jpg",
   "static/media/renaissancenow4.jpg": "static/media/renaissancenow4.cfb5747a.jpg",
-  "static/media/renaissancenow5.jpg": "static/media/renaissancenow5.b9844300.jpg",
-  "static/media/sundance1.jpg": "static/media/sundance1.58605434.jpg",
-  "static/media/sundance10.jpg": "static/media/sundance10.94a43374.jpg",
-  "static/media/sundance11.jpg": "static/media/sundance11.07fc938b.jpg",
-  "static/media/sundance2.jpg": "static/media/sundance2.e5fe7ebe.jpg",
-  "static/media/sundance3.jpg": "static/media/sundance3.7869e076.jpg",
-  "static/media/sundance4.jpg": "static/media/sundance4.7bfa87ba.jpg",
-  "static/media/sundance5.jpg": "static/media/sundance5.3e6e7ebd.jpg",
-  "static/media/sundance6.jpg": "static/media/sundance6.795d6b9a.jpg",
-  "static/media/sundance7.jpg": "static/media/sundance7.4a7c01d1.jpg",
-  "static/media/sundance8.jpg": "static/media/sundance8.71ca0b69.jpg",
-  "static/media/sundance9.jpg": "static/media/sundance9.11a276a7.jpg"
+  "static/media/renaissancenow5.jpg": "static/media/renaissancenow5.b9844300.jpg"
 }

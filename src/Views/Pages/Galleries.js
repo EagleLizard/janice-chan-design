@@ -67,19 +67,20 @@ export const GALLERIES = [
   ),
   new Gallery(
     SECTION_ENUM.SUNDANCE,
-    [
-      images.SUNDANCE1,
-      images.SUNDANCE2,
-      images.SUNDANCE3,
-      images.SUNDANCE4,
-      images.SUNDANCE5,
-      images.SUNDANCE6,
-      images.SUNDANCE7,
-      images.SUNDANCE8,
-      images.SUNDANCE9,
-      images.SUNDANCE10,
-      images.SUNDANCE11
-    ],
+    imageUris.SUNDANCE_GALLERY,
+    // [
+    //   images.SUNDANCE1,
+    //   images.SUNDANCE2,
+    //   images.SUNDANCE3,
+    //   images.SUNDANCE4,
+    //   images.SUNDANCE5,
+    //   images.SUNDANCE6,
+    //   images.SUNDANCE7,
+    //   images.SUNDANCE8,
+    //   images.SUNDANCE9,
+    //   images.SUNDANCE10,
+    //   images.SUNDANCE11
+    // ],
     true
   ),
   new Gallery(
