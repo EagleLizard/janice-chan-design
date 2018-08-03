@@ -52,17 +52,18 @@ export const GALLERIES = [
   ),
   new Gallery(
     SECTION_ENUM.BYU,
-    [
-      images.BYU1,
-      images.BYU2,
-      images.BYU3,
-      images.BYU4,
-      images.BYU5,
-      images.BYU6,
-      images.BYU7,
-      images.BYU8,
-      images.BYU9
-    ],
+    imageUris.BYU_GALLERY,
+    // [
+    //   images.BYU1,
+    //   images.BYU2,
+    //   images.BYU3,
+    //   images.BYU4,
+    //   images.BYU5,
+    //   images.BYU6,
+    //   images.BYU7,
+    //   images.BYU8,
+    //   images.BYU9
+    // ],
     true
   ),
   new Gallery(

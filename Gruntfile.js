@@ -1,3 +1,5 @@
+// 30
+
 var EXCLUDES = [
   'Janu.jpg',
   'tribes*.jpg',
@@ -5,6 +7,7 @@ var EXCLUDES = [
   '**/uvu/*.jpg',
   '**/sundance/*.jpg',
   '**/renaissancenow/*.jpg',
+  '**/byu/*.jpg',
   'WebsiteLogo-min.png',
   'projects-home.png',
   'janu.jpg',

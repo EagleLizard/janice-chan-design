@@ -4,15 +4,15 @@ import Shield2 from './assets-min/lg/gallery/renaissancefaire/Shield2.png';
 import Shield3 from './assets-min/lg/gallery/renaissancefaire/Shield3.png';
 import Shield4 from './assets-min/lg/gallery/renaissancefaire/Shield4.png';
 
-import BYU1 from './assets-min/lg/gallery/byu/BYU1.jpg';
-import BYU2 from './assets-min/lg/gallery/byu/BYU2.jpg';
-import BYU3 from './assets-min/lg/gallery/byu/BYU3.jpg';
-import BYU4 from './assets-min/lg/gallery/byu/BYU4.jpg';
-import BYU5 from './assets-min/lg/gallery/byu/BYU5.jpg';
-import BYU6 from './assets-min/lg/gallery/byu/BYU6.jpg';
-import BYU7 from './assets-min/lg/gallery/byu/BYU7.jpg';
-import BYU8 from './assets-min/lg/gallery/byu/BYU8.jpg';
-import BYU9 from './assets-min/lg/gallery/byu/BYU9.jpg';
+// import BYU1 from './assets-min/lg/gallery/byu/BYU1.jpg';
+// import BYU2 from './assets-min/lg/gallery/byu/BYU2.jpg';
+// import BYU3 from './assets-min/lg/gallery/byu/BYU3.jpg';
+// import BYU4 from './assets-min/lg/gallery/byu/BYU4.jpg';
+// import BYU5 from './assets-min/lg/gallery/byu/BYU5.jpg';
+// import BYU6 from './assets-min/lg/gallery/byu/BYU6.jpg';
+// import BYU7 from './assets-min/lg/gallery/byu/BYU7.jpg';
+// import BYU8 from './assets-min/lg/gallery/byu/BYU8.jpg';
+// import BYU9 from './assets-min/lg/gallery/byu/BYU9.jpg';
 
 // import SUNDANCE1 from './assets-min/lg/gallery/sundance/sundance1.jpg';
 // import SUNDANCE2 from './assets-min/lg/gallery/sundance/sundance2.jpg';
@@ -87,15 +87,15 @@ export default {
   Shield3,
   Shield4,
 
-  BYU1,
-  BYU2,
-  BYU3,
-  BYU4,
-  BYU5,
-  BYU6,
-  BYU7,
-  BYU8,
-  BYU9,
+  // BYU1,
+  // BYU2,
+  // BYU3,
+  // BYU4,
+  // BYU5,
+  // BYU6,
+  // BYU7,
+  // BYU8,
+  // BYU9,
 
   // SUNDANCE1,
   // SUNDANCE2,

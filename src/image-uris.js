@@ -85,6 +85,18 @@ const RENAISSANCE_NOW_GALLERY = [
   imageUri('renaissancenow/renaissancenow5.jpg'),
 ];
 
+const BYU_GALLERY = [
+  imageUri('byu/BYU1.jpg'),
+  imageUri('byu/BYU2.jpg'),
+  imageUri('byu/BYU3.jpg'),
+  imageUri('byu/BYU4.jpg'),
+  imageUri('byu/BYU5.jpg'),
+  imageUri('byu/BYU6.jpg'),
+  imageUri('byu/BYU7.jpg'),
+  imageUri('byu/BYU8.jpg'),
+  imageUri('byu/BYU9.jpg'),
+];
+
 export default {
   LOGO,
   PROJECTS_HOME,
@@ -104,6 +116,7 @@ export default {
   UVU_GALLERY,
   SUNDANCE_GALLERY,
   RENAISSANCE_NOW_GALLERY,
+  BYU_GALLERY,
 };
 
 function imageUri(fileKey){
