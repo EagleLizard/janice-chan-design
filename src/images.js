@@ -26,11 +26,11 @@ import BYU9 from './assets-min/lg/gallery/byu/BYU9.jpg';
 // import SUNDANCE10 from './assets-min/lg/gallery/sundance/sundance10.jpg';
 // import SUNDANCE11 from './assets-min/lg/gallery/sundance/sundance11.jpg';
 
-import RENAISSANCENOW1 from './assets-min/lg/gallery/renaissancenow/renaissancenow1.jpg';
-import RENAISSANCENOW2 from './assets-min/lg/gallery/renaissancenow/renaissancenow2.jpg';
-import RENAISSANCENOW3 from './assets-min/lg/gallery/renaissancenow/renaissancenow3.jpg';
-import RENAISSANCENOW4 from './assets-min/lg/gallery/renaissancenow/renaissancenow4.jpg';
-import RENAISSANCENOW5 from './assets-min/lg/gallery/renaissancenow/renaissancenow5.jpg';
+// import RENAISSANCENOW1 from './assets-min/lg/gallery/renaissancenow/renaissancenow1.jpg';
+// import RENAISSANCENOW2 from './assets-min/lg/gallery/renaissancenow/renaissancenow2.jpg';
+// import RENAISSANCENOW3 from './assets-min/lg/gallery/renaissancenow/renaissancenow3.jpg';
+// import RENAISSANCENOW4 from './assets-min/lg/gallery/renaissancenow/renaissancenow4.jpg';
+// import RENAISSANCENOW5 from './assets-min/lg/gallery/renaissancenow/renaissancenow5.jpg';
 
 // import UVU1 from './assets-min/lg/gallery/uvu/uvu1.jpg';
 // import UVU2 from './assets-min/lg/gallery/uvu/uvu2.jpg';
@@ -109,11 +109,11 @@ export default {
   // SUNDANCE10,
   // SUNDANCE11,
 
-  RENAISSANCENOW1,
-  RENAISSANCENOW2,
-  RENAISSANCENOW3,
-  RENAISSANCENOW4,
-  RENAISSANCENOW5,
+  // RENAISSANCENOW1,
+  // RENAISSANCENOW2,
+  // RENAISSANCENOW3,
+  // RENAISSANCENOW4,
+  // RENAISSANCENOW5,
 
   // UVU1,
   // UVU2,

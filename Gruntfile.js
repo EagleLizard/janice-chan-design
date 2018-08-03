@@ -4,6 +4,7 @@ var EXCLUDES = [
   '**/fatpig/*.jpg',
   '**/uvu/*.jpg',
   '**/sundance/*.jpg',
+  '**/renaissancenow/*.jpg',
   'WebsiteLogo-min.png',
   'projects-home.png',
   'janu.jpg',

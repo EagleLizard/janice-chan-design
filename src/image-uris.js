@@ -75,7 +75,15 @@ const SUNDANCE_GALLERY = [
   imageUri('sundance/sundance9.jpg'),
   imageUri('sundance/sundance10.jpg'),
   imageUri('sundance/sundance11.jpg'),
-]
+];
+
+const RENAISSANCE_NOW_GALLERY = [
+  imageUri('renaissancenow/renaissancenow1.jpg'),
+  imageUri('renaissancenow/renaissancenow2.jpg'),
+  imageUri('renaissancenow/renaissancenow3.jpg'),
+  imageUri('renaissancenow/renaissancenow4.jpg'),
+  imageUri('renaissancenow/renaissancenow5.jpg'),
+];
 
 export default {
   LOGO,
@@ -95,6 +103,7 @@ export default {
   FAT_PIG_GALLERY,
   UVU_GALLERY,
   SUNDANCE_GALLERY,
+  RENAISSANCE_NOW_GALLERY,
 };
 
 function imageUri(fileKey){
