@@ -1,7 +1,6 @@
 import React from 'react';
 import './About.css';
 
-import images from '../../images';
 import imageUris from '../../image-uris';
 
 export default class About extends React.Component {

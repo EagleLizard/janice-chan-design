@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import { Link } from 'react-router-dom';
 import './MainHeader.css';
-import images from '../images';
 import imageUris from '../image-uris';
 
 import TopNav from './top-nav/TopNav';
