@@ -46,6 +46,23 @@ const FAT_PIG_GALLERY = [
   imageUri('fatpig/fatpig12.jpg'),
 ];
 
+const UVU_GALLERY = [
+  imageUri('uvu/uvu1.jpg'),
+  imageUri('uvu/uvu2.jpg'),
+  imageUri('uvu/uvu3.jpg'),
+  imageUri('uvu/uvu4.jpg'),
+  imageUri('uvu/uvu5.jpg'),
+  imageUri('uvu/uvu6.jpg'),
+  imageUri('uvu/uvu7.jpg'),
+  imageUri('uvu/uvu8.jpg'),
+  imageUri('uvu/uvu9.jpg'),
+  imageUri('uvu/uvu10.jpg'),
+  imageUri('uvu/uvu11.jpg'),
+  imageUri('uvu/uvu12.jpg'),
+  imageUri('uvu/uvu13.jpg'),
+  imageUri('uvu/uvu14.jpg'),
+];
+
 export default {
   LOGO,
   PROJECTS_HOME,
@@ -61,7 +78,8 @@ export default {
   PLACEHOLDER,
 
   TRIBES_GALLERY,
-  FAT_PIG_GALLERY
+  FAT_PIG_GALLERY,
+  UVU_GALLERY,
 };
 
 function imageUri(fileKey){

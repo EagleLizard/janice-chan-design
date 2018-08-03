@@ -95,22 +95,23 @@ export const GALLERIES = [
   ),
   new Gallery(
     SECTION_ENUM.UVU,
-    [
-      images.UVU1,
-      images.UVU2,
-      images.UVU3,
-      images.UVU4,
-      images.UVU5,
-      images.UVU6,
-      images.UVU7,
-      images.UVU8,
-      images.UVU9,
-      images.UVU10,
-      images.UVU11,
-      images.UVU12,
-      images.UVU13,
-      images.UVU14
-    ],
+    imageUris.UVU_GALLERY,
+      // [
+      // images.UVU1,
+      // images.UVU2,
+      // images.UVU3,
+      // images.UVU4,
+      // images.UVU5,
+      // images.UVU6,
+      // images.UVU7,
+      // images.UVU8,
+      // images.UVU9,
+      // images.UVU10,
+      // images.UVU11,
+      // images.UVU12,
+      // images.UVU13,
+      // images.UVU14
+      // ],
     true
   ),
   new Gallery(
