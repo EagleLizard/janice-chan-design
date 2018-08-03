@@ -42,12 +42,13 @@ export const DEFAULT_GALLERY = new Gallery(
 export const GALLERIES = [
   new Gallery(
     SECTION_ENUM.RENAISSANCE_FAIRE, 
-    [
-      images.Shield1,
-      images.Shield2,
-      images.Shield3,
-      images.Shield4
-    ],
+    imageUris.RENAISSANCE_FAIRE_GALLERY,
+    // [
+    //   images.Shield1,
+    //   images.Shield2,
+    //   images.Shield3,
+    //   images.Shield4
+    // ],
     true
   ),
   new Gallery(

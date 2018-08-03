@@ -1,8 +1,8 @@
 //gallery images
-import Shield1 from './assets-min/lg/gallery/renaissancefaire/Shield1.png';
-import Shield2 from './assets-min/lg/gallery/renaissancefaire/Shield2.png';
-import Shield3 from './assets-min/lg/gallery/renaissancefaire/Shield3.png';
-import Shield4 from './assets-min/lg/gallery/renaissancefaire/Shield4.png';
+// import Shield1 from './assets-min/lg/gallery/renaissancefaire/Shield1.png';
+// import Shield2 from './assets-min/lg/gallery/renaissancefaire/Shield2.png';
+// import Shield3 from './assets-min/lg/gallery/renaissancefaire/Shield3.png';
+// import Shield4 from './assets-min/lg/gallery/renaissancefaire/Shield4.png';
 
 // import BYU1 from './assets-min/lg/gallery/byu/BYU1.jpg';
 // import BYU2 from './assets-min/lg/gallery/byu/BYU2.jpg';
@@ -82,10 +82,10 @@ import Shield4 from './assets-min/lg/gallery/renaissancefaire/Shield4.png';
 import {SECTION_ENUM} from './Sections';
 
 export default {
-  Shield1,
-  Shield2,
-  Shield3,
-  Shield4,
+  // Shield1,
+  // Shield2,
+  // Shield3,
+  // Shield4,
 
   // BYU1,
   // BYU2,

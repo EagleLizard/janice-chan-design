@@ -2,12 +2,13 @@
 
 var EXCLUDES = [
   'Janu.jpg',
-  'tribes*.jpg',
+  '**/tribes/*.jpg',
   '**/fatpig/*.jpg',
   '**/uvu/*.jpg',
   '**/sundance/*.jpg',
   '**/renaissancenow/*.jpg',
   '**/byu/*.jpg',
+  '**/renaissancefaire/*.png',
   'WebsiteLogo-min.png',
   'projects-home.png',
   'janu.jpg',

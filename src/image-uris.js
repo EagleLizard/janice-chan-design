@@ -97,6 +97,13 @@ const BYU_GALLERY = [
   imageUri('byu/BYU9.jpg'),
 ];
 
+const RENAISSANCE_FAIRE_GALLERY = [
+  imageUri('renaissancefaire/Shield1.png'),
+  imageUri('renaissancefaire/Shield2.png'),
+  imageUri('renaissancefaire/Shield3.png'),
+  imageUri('renaissancefaire/Shield4.png'),
+];
+
 export default {
   LOGO,
   PROJECTS_HOME,
@@ -117,6 +124,7 @@ export default {
   SUNDANCE_GALLERY,
   RENAISSANCE_NOW_GALLERY,
   BYU_GALLERY,
+  RENAISSANCE_FAIRE_GALLERY,
 };
 
 function imageUri(fileKey){
