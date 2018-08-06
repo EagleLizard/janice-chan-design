@@ -27,7 +27,8 @@ export const SECTION_IDS = [
   'TRIBES',
   'UVU',
   'BYU',
-  'MISC'
+  'MISC',
+  'AGAMEMNON'
 ];
 
 export const SECTION_ENUM = constEnum(...SECTION_IDS);
@@ -45,6 +46,12 @@ export const PROJECTS_HOME = new Section(
 )
 
 export const SECTIONS = [
+  new Section(
+    SECTION_ENUM.AGAMEMNON,
+    'agamemnon',
+    '#D6E0BD',
+    imageUris.AGAMEMNON
+  ),
   new Section(
     SECTION_ENUM.TRIBES,
     'tribes',

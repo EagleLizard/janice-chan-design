@@ -19,6 +19,22 @@ class DetailPage{
 
 export const DETAIL_PAGES = [
   new DetailPage(
+    SECTION_ENUM.AGAMEMNON,
+    'AGAMEMNON',
+    'Agamemnon',
+    'scenic designer',
+    [
+      'Director: Christopher Clark',
+      'Props: Aimee Moore',
+      'Lights: Aaron Gubler',
+      'Sound: Colin Skip Wilson',
+      'Costumes: Mallory Goodman',
+      'Photos: Deric Lambdin',
+    ],
+    2018,
+    'Orem, Utah, U.S.A.'
+  ),
+  new DetailPage(
     SECTION_ENUM.RENAISSANCE_NOW,
     'RENAISSANCE NOW',
     'The Taming of the Shrew',

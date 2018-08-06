@@ -3,6 +3,7 @@ import constEnum from '../constEnum';
 
 export const LEFT_NAV_ENUM = constEnum(
   'HOME',
+  'AGAMEMNON',
   'SUNDANCE',
   'FAT_PIG',
   'RENAISSANCE_NOW',
@@ -21,6 +22,7 @@ export class LeftNavItem {
 }
 
 export const LEFT_NAV_ITEMS = [
+  new LeftNavItem('agamemnon', LEFT_NAV_ENUM.AGAMEMNON),
   new LeftNavItem('tribes', LEFT_NAV_ENUM.TRIBES),
   new LeftNavItem('fat pig', LEFT_NAV_ENUM.FAT_PIG),
   new LeftNavItem('a year with frog and toad', LEFT_NAV_ENUM.UVU),

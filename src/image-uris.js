@@ -12,7 +12,25 @@ const RENAISSANCE_NOW = imageUri('renaissancenow.jpg');
 const UVU = imageUri('utahvalleyuniversity.jpg');
 const FAT_PIG = imageUri('fatpig.jpg');
 const TRIBES = imageUri('tribes.jpg');
+const AGAMEMNON = imageUri('agamemnon.jpg');
 const PLACEHOLDER = imageUri('bigbird.jpg');
+
+const AGAMEMNON_GALLERY = [
+  imageUri('agamemnon/agamemnon1.jpg'),
+  imageUri('agamemnon/agamemnon2.jpg'),
+  imageUri('agamemnon/agamemnon3.jpg'),
+  imageUri('agamemnon/agamemnon4.jpg'),
+  imageUri('agamemnon/agamemnon5.jpg'),
+  imageUri('agamemnon/agamemnon6.jpg'),
+  imageUri('agamemnon/agamemnon7.jpg'),
+  imageUri('agamemnon/agamemnon8.jpg'),
+  imageUri('agamemnon/agamemnon9.jpg'),
+  imageUri('agamemnon/agamemnon10.jpg'),
+  imageUri('agamemnon/agamemnon11.jpg'),
+  imageUri('agamemnon/agamemnon12.jpg'),
+  imageUri('agamemnon/agamemnon13.jpg'),
+  imageUri('agamemnon/agamemnon14.jpg'),
+];
 
 const TRIBES_GALLERY = [
   imageUri('tribes/tribes1.jpg'),
@@ -116,6 +134,7 @@ export default {
   UVU,
   FAT_PIG,
   TRIBES,
+  AGAMEMNON,
   PLACEHOLDER,
 
   TRIBES_GALLERY,
@@ -125,6 +144,7 @@ export default {
   RENAISSANCE_NOW_GALLERY,
   BYU_GALLERY,
   RENAISSANCE_FAIRE_GALLERY,
+  AGAMEMNON_GALLERY,
 };
 
 function imageUri(fileKey){

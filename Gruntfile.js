@@ -9,6 +9,7 @@ var EXCLUDES = [
   '**/renaissancenow/*.jpg',
   '**/byu/*.jpg',
   '**/renaissancefaire/*.png',
+  '**/agamemnon/*.jpg',
   'WebsiteLogo-min.png',
   'projects-home.png',
   'janu.jpg',
@@ -19,6 +20,7 @@ var EXCLUDES = [
   'utahvalleyuniversity.jpg',
   'fatpig.jpg',
   'tribes.jpg',
+  'agamemnon.jpg',
   'bigbird.jpg'
 ].map(s=>`!${s}`);
 
