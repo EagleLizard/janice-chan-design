@@ -2,7 +2,7 @@
 const BASEPATH = 'https://eaglelizard-files.herokuapp.com/';
 
 const LOGO = imageUri('WebsiteLogo-min.png');
-const PROJECTS_HOME = imageUri('projects-home.png');
+const HOME = imageUri('projects-home.png');
 const JANU = imageUri('janu.jpg');
 
 const PLACEHOLDER = imageUri('bigbird.jpg');
@@ -149,7 +149,7 @@ const RENAISSANCE_FAIRE_GALLERY = imageUris([
 
 export default {
   LOGO,
-  PROJECTS_HOME,
+  HOME,
   JANU,
 
   PLACEHOLDER,
