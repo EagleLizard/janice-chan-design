@@ -10,6 +10,7 @@ var EXCLUDES = [
   '**/byu/*.jpg',
   '**/renaissancefaire/*.png',
   '**/agamemnon/*.jpg',
+  '**/nextfall/*.jpg',
   'WebsiteLogo-min.png',
   'projects-home.png',
   'janu.jpg',
@@ -21,7 +22,8 @@ var EXCLUDES = [
   'fatpig.jpg',
   'tribes.jpg',
   'agamemnon.jpg',
-  'bigbird.jpg'
+  'bigbird.jpg',
+  'nextfall.jpg'
 ].map(s=>`!${s}`);
 
 module.exports = function(grunt) {

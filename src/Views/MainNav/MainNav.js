@@ -14,10 +14,10 @@ export default class MainNav extends React.Component {
     this.state = {
       hoverItem: HOME_HOVER_ITEM
     };
-    console.log(this.state);
   }
 
   navItemHovered(itemKey){
+    console.log(itemKey);
     this.setState((prev, props)=>({
       hoverItem: Object.assign({}, getHoverItem(itemKey))
     }));

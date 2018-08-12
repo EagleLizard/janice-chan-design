@@ -13,7 +13,21 @@ const UVU = imageUri('utahvalleyuniversity.jpg');
 const FAT_PIG = imageUri('fatpig.jpg');
 const TRIBES = imageUri('tribes.jpg');
 const AGAMEMNON = imageUri('agamemnon.jpg');
+const NEXT_FALL = imageUri('nextfall.jpg');
 const PLACEHOLDER = imageUri('bigbird.jpg');
+
+const NEXT_FALL_GALLERY = [
+  imageUri('nextfall/nextfall1.jpg'),
+  imageUri('nextfall/nextfall2.jpg'),
+  imageUri('nextfall/nextfall3.jpg'),
+  imageUri('nextfall/nextfall4.jpg'),
+  imageUri('nextfall/nextfall5.jpg'),
+  imageUri('nextfall/nextfall6.jpg'),
+  imageUri('nextfall/nextfall7.jpg'),
+  imageUri('nextfall/nextfall8.jpg'),
+  imageUri('nextfall/nextfall9.jpg'),
+  imageUri('nextfall/nextfall10.jpg'),
+];
 
 const AGAMEMNON_GALLERY = [
   imageUri('agamemnon/agamemnon1.jpg'),
@@ -135,6 +149,7 @@ export default {
   FAT_PIG,
   TRIBES,
   AGAMEMNON,
+  NEXT_FALL,
   PLACEHOLDER,
 
   TRIBES_GALLERY,
@@ -145,6 +160,7 @@ export default {
   BYU_GALLERY,
   RENAISSANCE_FAIRE_GALLERY,
   AGAMEMNON_GALLERY,
+  NEXT_FALL_GALLERY,
 };
 
 function imageUri(fileKey){

@@ -6,7 +6,6 @@ import './LeftNav.css';
 export default class LeftNav extends Component{
   render()
   {
-    console.log(this.props.navItems);
     return (
       <div className="left-nav-items">
         {this.props.navItems.map(item=>{
@@ -20,11 +19,7 @@ export default class LeftNav extends Component{
               onMouseLeave={this.props.navItemBlurred.bind(this, item.key)}
               onClick={this.props.navItemClicked.bind(this,item.key)}>
               <div 
-                className="left-nav-item-text"
-                /*style={{ 
-                  color: (this.props.itemKey && (item.key === this.props.itemKey.key)) 
-                          ? item.navColor : 'inherit' 
-                }}*/>
+                className="left-nav-item-text">
                 {item.title}
               </div>
             </div>

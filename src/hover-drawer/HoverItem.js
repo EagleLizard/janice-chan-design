@@ -1,5 +1,5 @@
 
-import { LEFT_NAV_ENUM } from '../left-nav/LeftNavItems';
+import { SECTION_ENUM } from './../Sections';
 
 export class HoverItem{
   constructor(key, title, color){
@@ -9,10 +9,10 @@ export class HoverItem{
   }
 }
 
-const HOVER_ITEMS = Object.keys(LEFT_NAV_ENUM).reduce((acc,curr, idx, arr)=>{
+const HOVER_ITEMS = Object.keys(SECTION_ENUM).reduce((acc,curr, idx, arr)=>{
   let colorTransform = Math.floor((((arr.length-idx)/arr.length)*100)+130);
   acc[curr] = new HoverItem(
-    LEFT_NAV_ENUM[curr],
+    SECTION_ENUM[curr],
     null,
     `rgb(${colorTransform},${colorTransform},${colorTransform})`
   );
@@ -23,4 +23,4 @@ export function getHoverItem(itemKey){
   return HOVER_ITEMS[itemKey] || null;
 }
 
-export const HOME_HOVER_ITEM = getHoverItem(LEFT_NAV_ENUM.HOME);
+export const HOME_HOVER_ITEM = getHoverItem(SECTION_ENUM.HOME);

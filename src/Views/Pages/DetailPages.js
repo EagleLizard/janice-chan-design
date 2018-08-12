@@ -19,6 +19,21 @@ class DetailPage{
 
 export const DETAIL_PAGES = [
   new DetailPage(
+    SECTION_ENUM.NEXT_FALL,
+    'NEXT FALL',
+    'Next Fall',
+    'scenic designer, props designer',
+    [
+      'Director: Kacey Spadafora',
+      'Lights: Paige Porter',
+      'Sound: Kaecy Spadafora',
+      'Costumes: Ash Knowles',
+      'Photos: Laura Chapman',
+    ],
+    2018,
+    'Location: Provo, Utah, U.S.A.'
+  ),
+  new DetailPage(
     SECTION_ENUM.AGAMEMNON,
     'AGAMEMNON',
     'Agamemnon',

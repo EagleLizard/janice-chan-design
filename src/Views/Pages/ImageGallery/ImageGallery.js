@@ -7,7 +7,6 @@ import {imageLoader} from '../../../common/common';
 import detailPageService from '../detailPageService';
 
 const COLUMN_WIDTH = 300;
-const COLUMN_WIDTH_STATIC = '.grid-sizer'
 
 export default class ImageGallery extends Component{
   constructor(props){
@@ -20,7 +19,6 @@ export default class ImageGallery extends Component{
       lightboxOpen: false,
       lightboxIdx: 0
     };
-    console.log(this.state);
   }
 
   closeLightbox(){
@@ -32,9 +30,7 @@ export default class ImageGallery extends Component{
   }
 
   openLightbox(imageId){
-    console.log(imageId);
     this.setState((prev, props)=>{
-      console.log(prev);
       return {
         lightboxOpen: true,
         lightboxIdx: imageId
