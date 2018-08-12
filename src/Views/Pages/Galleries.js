@@ -1,5 +1,5 @@
 
-import { SECTION_ENUM } from '../../Sections';
+import { SECTION_ENUM } from '../../section-enum';
 import imageUris from '../../image-uris';
 
 import Q from 'q';

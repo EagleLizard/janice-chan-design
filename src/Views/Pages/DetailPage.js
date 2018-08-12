@@ -13,8 +13,8 @@ export default class DetailPage extends Component{
       super(props);
       this.pageId = this.props.match.params.pageId;
       this.section = detailPageService.getSection(this.pageId);
-      this.detailPage = detailPageService.getDetailPage(this.section.key);
-      this.imageGallery = detailPageService.getGallery(this.section.key);
+      this.detailPage = this.section.detailPage;
+      this.imageGallery = this.section.imageGallery;
     }
 
     render(){

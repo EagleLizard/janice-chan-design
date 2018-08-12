@@ -1,12 +1,16 @@
-import constEnum from './constEnum';
 import imageUris from './image-uris';
-const Color = require('color');
+import { SECTION_IDS, SECTION_ENUM } from './section-enum';
+import { DETAIL_PAGES, DEFAULT_DETAIL_PAGE } from './Views/Pages/DetailPages';
+import { GALLERIES, DEFAULT_GALLERY } from './Views/Pages/Galleries';
+
 const PAGE_BASE_URL = '/work/';
 
 export class Section {
   constructor(key, title, hoverPhotoUrl){
     this.key = key;
     this.title = title;
+    this.detailPage = getDetailPage(this.key);
+    this.imageGallery = getGallery(this.key);
     
     if(hoverPhotoUrl){
       this.hoverPhotoUrl = hoverPhotoUrl;
@@ -17,23 +21,6 @@ export class Section {
     this.pageUrl = PAGE_BASE_URL+PAGE_URLS[key];
   }
 }
-
-export const SECTION_IDS = [
-  'HOME',
-  'SUNDANCE',
-  'FAT_PIG',
-  'RENAISSANCE_NOW',
-  'RENAISSANCE_FAIRE',
-  'TRIBES',
-  'UVU',
-  'BYU',
-  'MISC',
-  'AGAMEMNON',
-  'NEXT_FALL',
-  'CABARET',
-];
-
-export const SECTION_ENUM = constEnum(...SECTION_IDS);
 
 const PAGE_URLS = SECTION_IDS.reduce((acc,curr)=>{
   acc[curr] = curr.toLowerCase().replace('_', '-');
@@ -105,3 +92,20 @@ export const SECTIONS = [,
 //remove MISC section for now
 .filter(section=>section.key !== SECTION_ENUM.MISC);
 
+function getDetailPage(sectionId){
+  let detailsIdx = DETAIL_PAGES.findIndex(detailPage=>{
+    return detailPage.key === sectionId;
+  });
+  return (detailsIdx === -1)
+    ? DEFAULT_DETAIL_PAGE
+    : DETAIL_PAGES[detailsIdx] ;
+}
+
+function getGallery(sectionId){
+  let galleryIdx = GALLERIES.findIndex(gallery=>{
+    return gallery.key === sectionId;
+  });
+  return (galleryIdx === -1)
+    ? DEFAULT_GALLERY
+    : GALLERIES[galleryIdx] ;
+}

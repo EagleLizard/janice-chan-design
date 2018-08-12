@@ -1,5 +1,5 @@
 
-import { SECTION_ENUM } from './../Sections';
+import { SECTION_ENUM } from './../section-enum';
 
 export class HoverItem{
   constructor(key, title, color){

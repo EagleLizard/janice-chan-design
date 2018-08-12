@@ -3,7 +3,7 @@
     In the future this should be lazy-loaded.
 */
 
-import { SECTION_ENUM } from '../../Sections';
+import { SECTION_ENUM } from '../../section-enum';
 
 class DetailPage{
   constructor(key, title, subtitle, credit, description, year, location){
