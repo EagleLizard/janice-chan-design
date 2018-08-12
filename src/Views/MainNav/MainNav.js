@@ -17,7 +17,6 @@ export default class MainNav extends React.Component {
   }
 
   navItemHovered(itemKey){
-    console.log(itemKey);
     this.setState((prev, props)=>({
       hoverItem: Object.assign({}, getHoverItem(itemKey))
     }));
