@@ -17,135 +17,135 @@ const AGAMEMNON = imageUri('agamemnon.jpg');
 const NEXT_FALL = imageUri('nextfall.jpg');
 const CABARET = imageUri('cabaret.jpg');
 
-const CABARET_GALLERY = [
-  imageUri('cabaret/cabaret1.jpg'),
-  imageUri('cabaret/cabaret2.jpg'),
-  imageUri('cabaret/cabaret3.jpg'),
-  imageUri('cabaret/cabaret4.jpg'),
-  imageUri('cabaret/cabaret5.jpg'),
-  imageUri('cabaret/cabaret6.jpg'),
-  imageUri('cabaret/cabaret7.jpg'),
-];
+const CABARET_GALLERY = imageUris([
+  'cabaret/cabaret1.jpg',
+  'cabaret/cabaret2.jpg',
+  'cabaret/cabaret3.jpg',
+  'cabaret/cabaret4.jpg',
+  'cabaret/cabaret5.jpg',
+  'cabaret/cabaret6.jpg',
+  'cabaret/cabaret7.jpg',
+]);
 
-const NEXT_FALL_GALLERY = [
-  imageUri('nextfall/nextfall1.jpg'),
-  imageUri('nextfall/nextfall2.jpg'),
-  imageUri('nextfall/nextfall3.jpg'),
-  imageUri('nextfall/nextfall4.jpg'),
-  imageUri('nextfall/nextfall5.jpg'),
-  imageUri('nextfall/nextfall6.jpg'),
-  imageUri('nextfall/nextfall7.jpg'),
-  imageUri('nextfall/nextfall8.jpg'),
-  imageUri('nextfall/nextfall9.jpg'),
-  imageUri('nextfall/nextfall10.jpg'),
-];
+const NEXT_FALL_GALLERY = imageUris([
+  'nextfall/nextfall1.jpg',
+  'nextfall/nextfall2.jpg',
+  'nextfall/nextfall3.jpg',
+  'nextfall/nextfall4.jpg',
+  'nextfall/nextfall5.jpg',
+  'nextfall/nextfall6.jpg',
+  'nextfall/nextfall7.jpg',
+  'nextfall/nextfall8.jpg',
+  'nextfall/nextfall9.jpg',
+  'nextfall/nextfall10.jpg',
+]);
 
-const AGAMEMNON_GALLERY = [
-  imageUri('agamemnon/agamemnon1.jpg'),
-  imageUri('agamemnon/agamemnon2.jpg'),
-  imageUri('agamemnon/agamemnon3.jpg'),
-  imageUri('agamemnon/agamemnon4.jpg'),
-  imageUri('agamemnon/agamemnon5.jpg'),
-  imageUri('agamemnon/agamemnon6.jpg'),
-  imageUri('agamemnon/agamemnon7.jpg'),
-  imageUri('agamemnon/agamemnon8.jpg'),
-  imageUri('agamemnon/agamemnon9.jpg'),
-  imageUri('agamemnon/agamemnon10.jpg'),
-  imageUri('agamemnon/agamemnon11.jpg'),
-  imageUri('agamemnon/agamemnon12.jpg'),
-  imageUri('agamemnon/agamemnon13.jpg'),
-  imageUri('agamemnon/agamemnon14.jpg'),
-];
+const AGAMEMNON_GALLERY = imageUris([
+  'agamemnon/agamemnon1.jpg',
+  'agamemnon/agamemnon2.jpg',
+  'agamemnon/agamemnon3.jpg',
+  'agamemnon/agamemnon4.jpg',
+  'agamemnon/agamemnon5.jpg',
+  'agamemnon/agamemnon6.jpg',
+  'agamemnon/agamemnon7.jpg',
+  'agamemnon/agamemnon8.jpg',
+  'agamemnon/agamemnon9.jpg',
+  'agamemnon/agamemnon10.jpg',
+  'agamemnon/agamemnon11.jpg',
+  'agamemnon/agamemnon12.jpg',
+  'agamemnon/agamemnon13.jpg',
+  'agamemnon/agamemnon14.jpg',
+]);
 
-const TRIBES_GALLERY = [
-  imageUri('tribes/tribes1.jpg'),
-  imageUri('tribes/tribes2.jpg'),
-  imageUri('tribes/tribes3.jpg'),
-  imageUri('tribes/tribes4.jpg'),
-  imageUri('tribes/tribes5.jpg'),
-  imageUri('tribes/tribes6.jpg'),
-  imageUri('tribes/tribes7.jpg'),
-  imageUri('tribes/tribes8.jpg'),
-  imageUri('tribes/tribes9.jpg'),
-  imageUri('tribes/tribes10.jpg'),
-  imageUri('tribes/tribes11.jpg'),
-  imageUri('tribes/tribes12.jpg'),
-  imageUri('tribes/tribes13.jpg'),
-  imageUri('tribes/tribes14.jpg')
-];
+const TRIBES_GALLERY = imageUris([
+  'tribes/tribes1.jpg',
+  'tribes/tribes2.jpg',
+  'tribes/tribes3.jpg',
+  'tribes/tribes4.jpg',
+  'tribes/tribes5.jpg',
+  'tribes/tribes6.jpg',
+  'tribes/tribes7.jpg',
+  'tribes/tribes8.jpg',
+  'tribes/tribes9.jpg',
+  'tribes/tribes10.jpg',
+  'tribes/tribes11.jpg',
+  'tribes/tribes12.jpg',
+  'tribes/tribes13.jpg',
+  'tribes/tribes14.jpg',
+]);
 
-const FAT_PIG_GALLERY = [
-  imageUri('fatpig/fatpig1.jpg'),
-  imageUri('fatpig/fatpig2.jpg'),
-  imageUri('fatpig/fatpig3.jpg'),
-  imageUri('fatpig/fatpig4.jpg'),
-  imageUri('fatpig/fatpig5.jpg'),
-  imageUri('fatpig/fatpig6.jpg'),
-  imageUri('fatpig/fatpig7.jpg'),
-  imageUri('fatpig/fatpig8.jpg'),
-  imageUri('fatpig/fatpig9.jpg'),
-  imageUri('fatpig/fatpig10.jpg'),
-  imageUri('fatpig/fatpig11.jpg'),
-  imageUri('fatpig/fatpig12.jpg'),
-];
+const FAT_PIG_GALLERY = imageUris([
+  'fatpig/fatpig1.jpg',
+  'fatpig/fatpig2.jpg',
+  'fatpig/fatpig3.jpg',
+  'fatpig/fatpig4.jpg',
+  'fatpig/fatpig5.jpg',
+  'fatpig/fatpig6.jpg',
+  'fatpig/fatpig7.jpg',
+  'fatpig/fatpig8.jpg',
+  'fatpig/fatpig9.jpg',
+  'fatpig/fatpig10.jpg',
+  'fatpig/fatpig11.jpg',
+  'fatpig/fatpig12.jpg',
+]);
 
-const UVU_GALLERY = [
-  imageUri('uvu/uvu1.jpg'),
-  imageUri('uvu/uvu2.jpg'),
-  imageUri('uvu/uvu3.jpg'),
-  imageUri('uvu/uvu4.jpg'),
-  imageUri('uvu/uvu5.jpg'),
-  imageUri('uvu/uvu6.jpg'),
-  imageUri('uvu/uvu7.jpg'),
-  imageUri('uvu/uvu8.jpg'),
-  imageUri('uvu/uvu9.jpg'),
-  imageUri('uvu/uvu10.jpg'),
-  imageUri('uvu/uvu11.jpg'),
-  imageUri('uvu/uvu12.jpg'),
-  imageUri('uvu/uvu13.jpg'),
-  imageUri('uvu/uvu14.jpg'),
-];
+const UVU_GALLERY = imageUris([
+  'uvu/uvu1.jpg',
+  'uvu/uvu2.jpg',
+  'uvu/uvu3.jpg',
+  'uvu/uvu4.jpg',
+  'uvu/uvu5.jpg',
+  'uvu/uvu6.jpg',
+  'uvu/uvu7.jpg',
+  'uvu/uvu8.jpg',
+  'uvu/uvu9.jpg',
+  'uvu/uvu10.jpg',
+  'uvu/uvu11.jpg',
+  'uvu/uvu12.jpg',
+  'uvu/uvu13.jpg',
+  'uvu/uvu14.jpg',
+]);
 
-const SUNDANCE_GALLERY = [
-  imageUri('sundance/sundance1.jpg'),
-  imageUri('sundance/sundance2.jpg'),
-  imageUri('sundance/sundance3.jpg'),
-  imageUri('sundance/sundance4.jpg'),
-  imageUri('sundance/sundance5.jpg'),
-  imageUri('sundance/sundance6.jpg'),
-  imageUri('sundance/sundance7.jpg'),
-  imageUri('sundance/sundance8.jpg'),
-  imageUri('sundance/sundance9.jpg'),
-  imageUri('sundance/sundance10.jpg'),
-  imageUri('sundance/sundance11.jpg'),
-];
+const SUNDANCE_GALLERY = imageUris([
+  'sundance/sundance1.jpg',
+  'sundance/sundance2.jpg',
+  'sundance/sundance3.jpg',
+  'sundance/sundance4.jpg',
+  'sundance/sundance5.jpg',
+  'sundance/sundance6.jpg',
+  'sundance/sundance7.jpg',
+  'sundance/sundance8.jpg',
+  'sundance/sundance9.jpg',
+  'sundance/sundance10.jpg',
+  'sundance/sundance11.jpg',
+]);
 
-const RENAISSANCE_NOW_GALLERY = [
-  imageUri('renaissancenow/renaissancenow1.jpg'),
-  imageUri('renaissancenow/renaissancenow2.jpg'),
-  imageUri('renaissancenow/renaissancenow3.jpg'),
-  imageUri('renaissancenow/renaissancenow4.jpg'),
-  imageUri('renaissancenow/renaissancenow5.jpg'),
-];
+const RENAISSANCE_NOW_GALLERY = imageUris([
+  'renaissancenow/renaissancenow1.jpg',
+  'renaissancenow/renaissancenow2.jpg',
+  'renaissancenow/renaissancenow3.jpg',
+  'renaissancenow/renaissancenow4.jpg',
+  'renaissancenow/renaissancenow5.jpg',
+]);
 
-const BYU_GALLERY = [
-  imageUri('byu/BYU1.jpg'),
-  imageUri('byu/BYU2.jpg'),
-  imageUri('byu/BYU3.jpg'),
-  imageUri('byu/BYU4.jpg'),
-  imageUri('byu/BYU5.jpg'),
-  imageUri('byu/BYU6.jpg'),
-  imageUri('byu/BYU7.jpg'),
-  imageUri('byu/BYU8.jpg'),
-  imageUri('byu/BYU9.jpg'),
-];
+const BYU_GALLERY = imageUris([
+  'byu/BYU1.jpg',
+  'byu/BYU2.jpg',
+  'byu/BYU3.jpg',
+  'byu/BYU4.jpg',
+  'byu/BYU5.jpg',
+  'byu/BYU6.jpg',
+  'byu/BYU7.jpg',
+  'byu/BYU8.jpg',
+  'byu/BYU9.jpg',
+]);
 
-const RENAISSANCE_FAIRE_GALLERY = [
-  imageUri('renaissancefaire/Shield1.png'),
-  imageUri('renaissancefaire/Shield2.png'),
-  imageUri('renaissancefaire/Shield3.png'),
-  imageUri('renaissancefaire/Shield4.png'),
-];
+const RENAISSANCE_FAIRE_GALLERY = imageUris([
+  'renaissancefaire/Shield1.png',
+  'renaissancefaire/Shield2.png',
+  'renaissancefaire/Shield3.png',
+  'renaissancefaire/Shield4.png',
+]);
 
 export default {
   LOGO,
@@ -178,4 +178,8 @@ export default {
 
 function imageUri(fileKey){
   return `${BASEPATH}${fileKey}`;
+}
+
+function imageUris(fileKeys){
+  return fileKeys.map(imageUri);
 }
