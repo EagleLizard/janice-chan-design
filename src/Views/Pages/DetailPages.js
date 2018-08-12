@@ -19,6 +19,23 @@ class DetailPage{
 
 export const DETAIL_PAGES = [
   new DetailPage(
+    SECTION_ENUM.CABARET,
+    'CABARET',
+    'Cabaret',
+    'assistant scenic & props designer',
+    [
+      'Director: Robert Moffat',
+      'Scenic & Props: Madeline Ashton',
+      'Lights: Emma Belnap',
+      'Sound: Gavin Henry',
+      'Costumes: Carolyn Urban',
+      'Makeup: Shelby Gist',
+      'Photos: Jeremy Hall',
+    ],
+    2018,
+    'Location: Orem, Utah, U.S.A.'
+  ),
+  new DetailPage(
     SECTION_ENUM.NEXT_FALL,
     'NEXT FALL',
     'Next Fall',

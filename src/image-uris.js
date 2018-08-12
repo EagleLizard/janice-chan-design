@@ -5,6 +5,7 @@ const LOGO = imageUri('WebsiteLogo-min.png');
 const PROJECTS_HOME = imageUri('projects-home.png');
 const JANU = imageUri('janu.jpg');
 
+const PLACEHOLDER = imageUri('bigbird.jpg');
 const RENAISSANCE_FAIRE = imageUri('utahrenaissancefaire.png');
 const BYU = imageUri('brighamyounguniversity.jpg');
 const SUNDANCE = imageUri('sundancesummertheatre.jpg');
@@ -14,7 +15,17 @@ const FAT_PIG = imageUri('fatpig.jpg');
 const TRIBES = imageUri('tribes.jpg');
 const AGAMEMNON = imageUri('agamemnon.jpg');
 const NEXT_FALL = imageUri('nextfall.jpg');
-const PLACEHOLDER = imageUri('bigbird.jpg');
+const CABARET = imageUri('cabaret.jpg');
+
+const CABARET_GALLERY = [
+  imageUri('cabaret/cabaret1.jpg'),
+  imageUri('cabaret/cabaret2.jpg'),
+  imageUri('cabaret/cabaret3.jpg'),
+  imageUri('cabaret/cabaret4.jpg'),
+  imageUri('cabaret/cabaret5.jpg'),
+  imageUri('cabaret/cabaret6.jpg'),
+  imageUri('cabaret/cabaret7.jpg'),
+];
 
 const NEXT_FALL_GALLERY = [
   imageUri('nextfall/nextfall1.jpg'),
@@ -141,6 +152,7 @@ export default {
   PROJECTS_HOME,
   JANU,
 
+  PLACEHOLDER,
   RENAISSANCE_FAIRE,
   BYU,
   SUNDANCE,
@@ -150,7 +162,7 @@ export default {
   TRIBES,
   AGAMEMNON,
   NEXT_FALL,
-  PLACEHOLDER,
+  CABARET,
 
   TRIBES_GALLERY,
   FAT_PIG_GALLERY,
@@ -161,6 +173,7 @@ export default {
   RENAISSANCE_FAIRE_GALLERY,
   AGAMEMNON_GALLERY,
   NEXT_FALL_GALLERY,
+  CABARET_GALLERY,
 };
 
 function imageUri(fileKey){

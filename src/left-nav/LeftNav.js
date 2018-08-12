@@ -6,6 +6,7 @@ import './LeftNav.css';
 export default class LeftNav extends Component{
   render()
   {
+    console.log(this.props.navItems);
     return (
       <div className="left-nav-items">
         {this.props.navItems.map(item=>{

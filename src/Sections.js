@@ -30,6 +30,7 @@ export const SECTION_IDS = [
   'MISC',
   'AGAMEMNON',
   'NEXT_FALL',
+  'CABARET',
 ];
 
 export const SECTION_ENUM = constEnum(...SECTION_IDS);
@@ -45,7 +46,12 @@ export const PROJECTS_HOME = new Section(
   imageUris.PROJECTS_HOME
 )
 
-export const SECTIONS = [
+export const SECTIONS = [,
+  new Section(
+    SECTION_ENUM.CABARET,
+    'cabaret',
+    imageUris.CABARET
+  ),
   new Section(
     SECTION_ENUM.NEXT_FALL,
     'next fall',

@@ -38,6 +38,11 @@ export const DEFAULT_GALLERY = new Gallery(
 
 export const GALLERIES = [
   new Gallery(
+    SECTION_ENUM.CABARET,
+    imageUris.CABARET_GALLERY,
+    true
+  ),
+  new Gallery(
     SECTION_ENUM.NEXT_FALL,
     imageUris.NEXT_FALL_GALLERY,
     true
