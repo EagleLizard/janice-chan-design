@@ -15,11 +15,11 @@ export default class About extends React.Component {
         <div className="about-content">
           <div className="about-text">
             <p>
-              Janice Chan is a set designer and painter based in Utah, U.S.A. She is currently pursuing a B.F.A. in Theatre Design and Production at Utah Valley University. Her upcoming projects include An Other Theater Company’s productions of&nbsp;
-              <em>Next Fall</em>
-              &nbsp;and&nbsp;
-              <em>The Drag</em>
-              ,&nbsp;and Utah Valley University's production of&nbsp;
+              Janice Chan is a set designer and freelance artist based in Utah, U.S.A. She is pursuing a B.F.A. in Theatre Design and Production at Utah Valley University. Her upcoming projects include
+              {/* <em>Next Fall</em>
+              &nbsp;and Another Theatre Company's&nbsp;
+              <em>The Drag</em> */}
+              &nbsp;Utah Valley University's production of&nbsp;
               <em>The Laramie Project</em>
               .
             </p>

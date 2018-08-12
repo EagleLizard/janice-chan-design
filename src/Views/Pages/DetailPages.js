@@ -25,7 +25,8 @@ export const DETAIL_PAGES = [
     'assistant scenic & props designer',
     [
       'Director: Robert Moffat',
-      'Scenic & Props: Madeline Ashton',
+      'Scenic: Madeline Ashton',
+      'Props: Madeline Ashton',
       'Lights: Emma Belnap',
       'Sound: Gavin Henry',
       'Costumes: Carolyn Urban',
