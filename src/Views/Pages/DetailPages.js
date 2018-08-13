@@ -20,7 +20,7 @@ class DetailPage{
 export const DETAIL_PAGES = [
   new DetailPage(
     SECTION_ENUM.CABARET,
-    'CABARET',
+    'UTAH VALLEY UNIVERSITY',
     'Cabaret',
     'assistant scenic & props designer',
     [
@@ -38,7 +38,7 @@ export const DETAIL_PAGES = [
   ),
   new DetailPage(
     SECTION_ENUM.NEXT_FALL,
-    'NEXT FALL',
+    'AN OTHER THEATRE COMPANY',
     'Next Fall',
     'scenic designer, props designer',
     [
@@ -53,7 +53,7 @@ export const DETAIL_PAGES = [
   ),
   new DetailPage(
     SECTION_ENUM.AGAMEMNON,
-    'AGAMEMNON',
+    'UTAH VALLEY UNIVERSITY',
     'Agamemnon',
     'scenic designer',
     [
