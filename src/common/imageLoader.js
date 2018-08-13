@@ -7,11 +7,13 @@ export default {
 };
 
 class ImageData {
-  constructor(img){
+  constructor(img, rawSrc){
     this.width = img.width;
     this.height = img.height;
     this.src = '';
+    this.rawSrc = rawSrc;
     this.id = -1;
+    this.img = img;
   }
   setSource(src){
     this.src = src;
@@ -23,20 +25,22 @@ class ImageData {
   }
 }
 
-function loadImages(images){
-  return Q.all(images.map(image=>loadImage(image)));
+function loadImages(images, width){
+  return Q.all(images.map(image=>loadImage(image, width)));
 }
 
-function loadImage(imageUrl){
+function loadImage(imageUrl, width){
   let deferred = Q.defer();
   let image = new Image();
   image.onload = function(){
-    deferred.resolve(new ImageData(this));
+    deferred.resolve(new ImageData(this, imageUrl));
   }
   image.onerror = function(){
     deferred.reject(this);
   }
-  image.src = imageUrl;
+  image.src = (width !== undefined)
+    ? `${imageUrl}?width=${width}`
+    : imageUrl ;
   return deferred.promise;
 }
 

@@ -16,9 +16,9 @@ function getSection(pageId){
 }
 
 function getLightboxFromImages(images){
-  return images.map(image=>{
+  return images.map((image, idx)=>{
     return {
-      src: image.src,
+      src: image.rawSrc,
       id: image.id
     };
   });

@@ -14,14 +14,15 @@ class Gallery {
     this.staticLayout = staticLayout;
     this.imagesLoaded = false;
   }
-  loadImages(){
+  loadImages(width){
     if(this.imagesLoaded){
       return Q.when(this.images);
     }
     let currId = 0;
     let promises = this.imageUrls.map(imageUrl=>{
-      return imageLoader.loadImage(imageUrl).then(data=>{
-        return this.images.push(data.setSource(imageUrl).setId(currId++));
+      return imageLoader.loadImage(imageUrl, width).then(data=>{
+        this.images.push(data.setSource(data.img.src).setId(currId++));
+        return data;
       })
     });
     return Q.all(promises).then((res)=>{

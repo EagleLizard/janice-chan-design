@@ -31,9 +31,13 @@ export default class ImageGallery extends Component{
 
   openLightbox(imageId){
     this.setState((prev, props)=>{
+      let lightboxIdx;
+      lightboxIdx = this.state.imageData.findIndex(image=>{
+        return image.id === imageId;
+      });
       return {
         lightboxOpen: true,
-        lightboxIdx: imageId
+        lightboxIdx
       }
     });
   }
@@ -55,11 +59,9 @@ export default class ImageGallery extends Component{
   }
   
   componentDidMount() {
-    this.props.imageGallery.loadImages().then(res=>{
-      let scaledImages = imageLoader.scaleImages(this.props.imageGallery.images, COLUMN_WIDTH) ;
-      console.log(detailPageService.getLightboxFromImages(scaledImages));
+    this.props.imageGallery.loadImages(COLUMN_WIDTH).then(res=>{
+      let scaledImages = res;
       this.setState((prev,props)=>{
-        console.log(prev);
         return {
           loadingImages: false,
           imageData: scaledImages,
