@@ -3,7 +3,7 @@ import { SECTION_IDS, SECTION_ENUM } from './section-enum';
 import { DETAIL_PAGES, DEFAULT_DETAIL_PAGE } from './Views/Pages/DetailPages';
 import { GALLERIES, DEFAULT_GALLERY } from './Views/Pages/Galleries';
 
-const PAGE_BASE_URL = '/work/';
+const PAGE_BASE_URL = '/projects/';
 
 export class Section {
   constructor(key, title){

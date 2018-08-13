@@ -28,7 +28,7 @@ export const VIEWS = [
   ),
   new PageView(
     VIEW_ENUM.DETAIL_PAGE,
-    '/work/:pageId',
+    '/projects/:pageId',
     'work'
   ),
   new PageView(

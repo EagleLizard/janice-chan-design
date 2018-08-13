@@ -38,7 +38,7 @@ export const DETAIL_PAGES = [
   ),
   new DetailPage(
     SECTION_ENUM.NEXT_FALL,
-    'AN OTHER THEATRE COMPANY',
+    'AN OTHER THEATER COMPANY',
     'Next Fall',
     'scenic designer, props designer',
     [
