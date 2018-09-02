@@ -13,6 +13,7 @@ export const SECTION_IDS = [
   'AGAMEMNON',
   'NEXT_FALL',
   'CABARET',
+  'THE_DRAG',
 ];
 
 export const SECTION_ENUM = constEnum(...SECTION_IDS);

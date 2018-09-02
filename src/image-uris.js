@@ -16,6 +16,20 @@ const TRIBES = imageUri('tribes.jpg');
 const AGAMEMNON = imageUri('agamemnon.jpg');
 const NEXT_FALL = imageUri('nextfall.jpg');
 const CABARET = imageUri('cabaret.jpg');
+const THE_DRAG = imageUri('thedrag.jpg');
+
+const THE_DRAG_GRALLERY = imageUris([
+  'thedrag/thedrag1.jpg',
+  'thedrag/thedrag2.jpg',
+  'thedrag/thedrag3.jpg',
+  'thedrag/thedrag4.jpg',
+  'thedrag/thedrag5.jpg',
+  'thedrag/thedrag6.jpg',
+  'thedrag/thedrag7.jpg',
+  'thedrag/thedrag8.jpg',
+  'thedrag/thedrag9.jpg',
+  'thedrag/thedrag10.jpg',
+]);
 
 const CABARET_GALLERY = imageUris([
   'cabaret/cabaret1.jpg',
@@ -163,6 +177,7 @@ export default {
   AGAMEMNON,
   NEXT_FALL,
   CABARET,
+  THE_DRAG,
 
   TRIBES_GALLERY,
   FAT_PIG_GALLERY,
@@ -174,6 +189,7 @@ export default {
   AGAMEMNON_GALLERY,
   NEXT_FALL_GALLERY,
   CABARET_GALLERY,
+  THE_DRAG_GRALLERY,
 };
 
 function imageUri(fileKey){

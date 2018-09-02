@@ -27,7 +27,11 @@ export const PROJECTS_HOME = new Section(
   null
 )
 
-export const SECTIONS = [,
+export const SECTIONS = [
+  new Section(
+    SECTION_ENUM.THE_DRAG,
+    'the drag',
+  ),
   new Section(
     SECTION_ENUM.CABARET,
     'cabaret',

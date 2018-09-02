@@ -19,6 +19,23 @@ class DetailPage{
 
 export const DETAIL_PAGES = [
   new DetailPage(
+    SECTION_ENUM.THE_DRAG,
+    'AN OTHER THEATER COMPANY',
+    'The Drag',
+    'scenic & props designer, muralist',
+    [
+      'Director: Taylor Jack Nelson',
+      'Assistant Muralist: Tyler Whited',
+      'Lights: Aimee Findley Moore',
+      'Sound: Kacey Spadafora',
+      'Costumes: Ash Knowles',
+      'Makeup: Christopher-Alan Pederson',
+      'Photos: Laura Chapman',
+    ],
+    2018,
+    'Location: Provo, Utah, U.S.A.'
+  ),
+  new DetailPage(
     SECTION_ENUM.CABARET,
     'UTAH VALLEY UNIVERSITY',
     'Cabaret',

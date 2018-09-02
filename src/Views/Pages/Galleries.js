@@ -39,6 +39,11 @@ export const DEFAULT_GALLERY = new Gallery(
 
 export const GALLERIES = [
   new Gallery(
+    SECTION_ENUM.THE_DRAG,
+    imageUris.THE_DRAG_GRALLERY,
+    true
+  ),
+  new Gallery(
     SECTION_ENUM.CABARET,
     imageUris.CABARET_GALLERY,
     true
